@@ -1,0 +1,976 @@
+data_type,cancer,year,sex,age_group,count,age_specific_rate,asr_2001,asr_2023,asr_who,asr_segi,age_start
+Actual,Melanoma of the skin,1982,Females,15-19,39,6.2,,,,,15.0
+Actual,Melanoma of the skin,1982,Females,20-24,92,14.0,,,,,20.0
+Actual,Melanoma of the skin,1982,Females,25-29,128,20.6,,,,,25.0
+Actual,Melanoma of the skin,1982,Females,30-34,163,26.9,,,,,30.0
+Actual,Melanoma of the skin,1982,Females,35-39,171,32.5,,,,,35.0
+Actual,Melanoma of the skin,1983,Females,15-19,33,5.3,,,,,15.0
+Actual,Melanoma of the skin,1983,Females,20-24,99,14.9,,,,,20.0
+Actual,Melanoma of the skin,1983,Females,25-29,161,25.6,,,,,25.0
+Actual,Melanoma of the skin,1983,Females,30-34,188,30.6,,,,,30.0
+Actual,Melanoma of the skin,1983,Females,35-39,190,34.0,,,,,35.0
+Actual,Melanoma of the skin,1984,Females,15-19,33,5.2,,,,,15.0
+Actual,Melanoma of the skin,1984,Females,20-24,83,12.5,,,,,20.0
+Actual,Melanoma of the skin,1984,Females,25-29,130,20.3,,,,,25.0
+Actual,Melanoma of the skin,1984,Females,30-34,190,30.6,,,,,30.0
+Actual,Melanoma of the skin,1984,Females,35-39,197,34.0,,,,,35.0
+Actual,Melanoma of the skin,1985,Females,15-19,31,4.9,,,,,15.0
+Actual,Melanoma of the skin,1985,Females,20-24,100,15.1,,,,,20.0
+Actual,Melanoma of the skin,1985,Females,25-29,158,24.2,,,,,25.0
+Actual,Melanoma of the skin,1985,Females,30-34,201,32.1,,,,,30.0
+Actual,Melanoma of the skin,1985,Females,35-39,248,41.1,,,,,35.0
+Actual,Melanoma of the skin,1986,Females,15-19,43,6.5,,,,,15.0
+Actual,Melanoma of the skin,1986,Females,20-24,97,14.8,,,,,20.0
+Actual,Melanoma of the skin,1986,Females,25-29,127,19.0,,,,,25.0
+Actual,Melanoma of the skin,1986,Females,30-34,188,29.7,,,,,30.0
+Actual,Melanoma of the skin,1986,Females,35-39,245,39.2,,,,,35.0
+Actual,Melanoma of the skin,1987,Females,15-19,49,7.2,,,,,15.0
+Actual,Melanoma of the skin,1987,Females,20-24,106,16.2,,,,,20.0
+Actual,Melanoma of the skin,1987,Females,25-29,187,27.4,,,,,25.0
+Actual,Melanoma of the skin,1987,Females,30-34,215,33.3,,,,,30.0
+Actual,Melanoma of the skin,1987,Females,35-39,263,42.1,,,,,35.0
+Actual,Melanoma of the skin,1988,Females,15-19,52,7.5,,,,,15.0
+Actual,Melanoma of the skin,1988,Females,20-24,106,16.2,,,,,20.0
+Actual,Melanoma of the skin,1988,Females,25-29,181,26.0,,,,,25.0
+Actual,Melanoma of the skin,1988,Females,30-34,225,34.0,,,,,30.0
+Actual,Melanoma of the skin,1988,Females,35-39,259,40.8,,,,,35.0
+Actual,Melanoma of the skin,1989,Females,15-19,46,6.7,,,,,15.0
+Actual,Melanoma of the skin,1989,Females,20-24,108,16.4,,,,,20.0
+Actual,Melanoma of the skin,1989,Females,25-29,150,21.2,,,,,25.0
+Actual,Melanoma of the skin,1989,Females,30-34,182,26.9,,,,,30.0
+Actual,Melanoma of the skin,1989,Females,35-39,238,36.9,,,,,35.0
+Actual,Melanoma of the skin,1990,Females,15-19,42,6.1,,,,,15.0
+Actual,Melanoma of the skin,1990,Females,20-24,103,15.4,,,,,20.0
+Actual,Melanoma of the skin,1990,Females,25-29,140,19.8,,,,,25.0
+Actual,Melanoma of the skin,1990,Females,30-34,163,23.5,,,,,30.0
+Actual,Melanoma of the skin,1990,Females,35-39,243,37.0,,,,,35.0
+Actual,Melanoma of the skin,1991,Females,15-19,58,8.7,,,,,15.0
+Actual,Melanoma of the skin,1991,Females,20-24,96,13.9,,,,,20.0
+Actual,Melanoma of the skin,1991,Females,25-29,137,19.7,,,,,25.0
+Actual,Melanoma of the skin,1991,Females,30-34,202,28.4,,,,,30.0
+Actual,Melanoma of the skin,1991,Females,35-39,243,36.6,,,,,35.0
+Actual,Melanoma of the skin,1992,Females,15-19,26,4.0,,,,,15.0
+Actual,Melanoma of the skin,1992,Females,20-24,98,13.9,,,,,20.0
+Actual,Melanoma of the skin,1992,Females,25-29,146,21.2,,,,,25.0
+Actual,Melanoma of the skin,1992,Females,30-34,210,29.0,,,,,30.0
+Actual,Melanoma of the skin,1992,Females,35-39,249,36.8,,,,,35.0
+Actual,Melanoma of the skin,1993,Females,15-19,46,7.3,,,,,15.0
+Actual,Melanoma of the skin,1993,Females,20-24,82,11.6,,,,,20.0
+Actual,Melanoma of the skin,1993,Females,25-29,132,19.4,,,,,25.0
+Actual,Melanoma of the skin,1993,Females,30-34,217,29.7,,,,,30.0
+Actual,Melanoma of the skin,1993,Females,35-39,243,35.4,,,,,35.0
+Actual,Melanoma of the skin,1994,Females,15-19,38,6.1,,,,,15.0
+Actual,Melanoma of the skin,1994,Females,20-24,111,15.7,,,,,20.0
+Actual,Melanoma of the skin,1994,Females,25-29,140,20.7,,,,,25.0
+Actual,Melanoma of the skin,1994,Females,30-34,200,27.3,,,,,30.0
+Actual,Melanoma of the skin,1994,Females,35-39,222,31.9,,,,,35.0
+Actual,Melanoma of the skin,1995,Females,15-19,44,7.1,,,,,15.0
+Actual,Melanoma of the skin,1995,Females,20-24,120,17.1,,,,,20.0
+Actual,Melanoma of the skin,1995,Females,25-29,176,25.7,,,,,25.0
+Actual,Melanoma of the skin,1995,Females,30-34,272,37.3,,,,,30.0
+Actual,Melanoma of the skin,1995,Females,35-39,270,38.0,,,,,35.0
+Actual,Melanoma of the skin,1996,Females,15-19,61,9.8,,,,,15.0
+Actual,Melanoma of the skin,1996,Females,20-24,105,15.4,,,,,20.0
+Actual,Melanoma of the skin,1996,Females,25-29,165,23.5,,,,,25.0
+Actual,Melanoma of the skin,1996,Females,30-34,233,32.3,,,,,30.0
+Actual,Melanoma of the skin,1996,Females,35-39,284,39.1,,,,,35.0
+Actual,Melanoma of the skin,1997,Females,15-19,63,10.2,,,,,15.0
+Actual,Melanoma of the skin,1997,Females,20-24,116,17.4,,,,,20.0
+Actual,Melanoma of the skin,1997,Females,25-29,181,25.1,,,,,25.0
+Actual,Melanoma of the skin,1997,Females,30-34,232,32.6,,,,,30.0
+Actual,Melanoma of the skin,1997,Females,35-39,290,39.2,,,,,35.0
+Actual,Melanoma of the skin,1998,Females,15-19,36,5.8,,,,,15.0
+Actual,Melanoma of the skin,1998,Females,20-24,93,14.4,,,,,20.0
+Actual,Melanoma of the skin,1998,Females,25-29,151,20.7,,,,,25.0
+Actual,Melanoma of the skin,1998,Females,30-34,242,34.3,,,,,30.0
+Actual,Melanoma of the skin,1998,Females,35-39,265,35.4,,,,,35.0
+Actual,Melanoma of the skin,1999,Females,15-19,34,5.4,,,,,15.0
+Actual,Melanoma of the skin,1999,Females,20-24,119,18.7,,,,,20.0
+Actual,Melanoma of the skin,1999,Females,25-29,147,20.2,,,,,25.0
+Actual,Melanoma of the skin,1999,Females,30-34,208,29.4,,,,,30.0
+Actual,Melanoma of the skin,1999,Females,35-39,281,37.3,,,,,35.0
+Actual,Melanoma of the skin,2000,Females,15-19,38,5.9,,,,,15.0
+Actual,Melanoma of the skin,2000,Females,20-24,93,14.8,,,,,20.0
+Actual,Melanoma of the skin,2000,Females,25-29,150,20.8,,,,,25.0
+Actual,Melanoma of the skin,2000,Females,30-34,220,30.8,,,,,30.0
+Actual,Melanoma of the skin,2000,Females,35-39,301,40.0,,,,,35.0
+Actual,Melanoma of the skin,2001,Females,15-19,41,6.3,,,,,15.0
+Actual,Melanoma of the skin,2001,Females,20-24,79,12.4,,,,,20.0
+Actual,Melanoma of the skin,2001,Females,25-29,144,20.6,,,,,25.0
+Actual,Melanoma of the skin,2001,Females,30-34,218,29.7,,,,,30.0
+Actual,Melanoma of the skin,2001,Females,35-39,279,37.4,,,,,35.0
+Actual,Melanoma of the skin,2002,Females,15-19,42,6.3,,,,,15.0
+Actual,Melanoma of the skin,2002,Females,20-24,93,14.4,,,,,20.0
+Actual,Melanoma of the skin,2002,Females,25-29,146,21.4,,,,,25.0
+Actual,Melanoma of the skin,2002,Females,30-34,220,29.3,,,,,30.0
+Actual,Melanoma of the skin,2002,Females,35-39,253,34.3,,,,,35.0
+Actual,Melanoma of the skin,2003,Females,15-19,31,4.6,,,,,15.0
+Actual,Melanoma of the skin,2003,Females,20-24,95,14.3,,,,,20.0
+Actual,Melanoma of the skin,2003,Females,25-29,123,18.3,,,,,25.0
+Actual,Melanoma of the skin,2003,Females,30-34,211,27.7,,,,,30.0
+Actual,Melanoma of the skin,2003,Females,35-39,261,35.7,,,,,35.0
+Actual,Melanoma of the skin,2004,Females,15-19,34,5.1,,,,,15.0
+Actual,Melanoma of the skin,2004,Females,20-24,91,13.4,,,,,20.0
+Actual,Melanoma of the skin,2004,Females,25-29,137,20.5,,,,,25.0
+Actual,Melanoma of the skin,2004,Females,30-34,217,28.5,,,,,30.0
+Actual,Melanoma of the skin,2004,Females,35-39,236,32.3,,,,,35.0
+Actual,Melanoma of the skin,2005,Females,15-19,28,4.2,,,,,15.0
+Actual,Melanoma of the skin,2005,Females,20-24,78,11.2,,,,,20.0
+Actual,Melanoma of the skin,2005,Females,25-29,168,25.0,,,,,25.0
+Actual,Melanoma of the skin,2005,Females,30-34,240,31.8,,,,,30.0
+Actual,Melanoma of the skin,2005,Females,35-39,256,34.7,,,,,35.0
+Actual,Melanoma of the skin,2006,Females,15-19,27,4.0,,,,,15.0
+Actual,Melanoma of the skin,2006,Females,20-24,79,11.1,,,,,20.0
+Actual,Melanoma of the skin,2006,Females,25-29,141,20.6,,,,,25.0
+Actual,Melanoma of the skin,2006,Females,30-34,210,28.4,,,,,30.0
+Actual,Melanoma of the skin,2006,Females,35-39,247,32.5,,,,,35.0
+Actual,Melanoma of the skin,2007,Females,15-19,20,2.9,,,,,15.0
+Actual,Melanoma of the skin,2007,Females,20-24,83,11.4,,,,,20.0
+Actual,Melanoma of the skin,2007,Females,25-29,117,16.5,,,,,25.0
+Actual,Melanoma of the skin,2007,Females,30-34,183,25.0,,,,,30.0
+Actual,Melanoma of the skin,2007,Females,35-39,289,36.9,,,,,35.0
+Actual,Melanoma of the skin,2008,Females,15-19,20,2.8,,,,,15.0
+Actual,Melanoma of the skin,2008,Females,20-24,80,10.8,,,,,20.0
+Actual,Melanoma of the skin,2008,Females,25-29,122,16.5,,,,,25.0
+Actual,Melanoma of the skin,2008,Females,30-34,187,25.6,,,,,30.0
+Actual,Melanoma of the skin,2008,Females,35-39,279,34.8,,,,,35.0
+Actual,Melanoma of the skin,2009,Females,15-19,28,3.9,,,,,15.0
+Actual,Melanoma of the skin,2009,Females,20-24,76,9.9,,,,,20.0
+Actual,Melanoma of the skin,2009,Females,25-29,124,16.0,,,,,25.0
+Actual,Melanoma of the skin,2009,Females,30-34,176,23.8,,,,,30.0
+Actual,Melanoma of the skin,2009,Females,35-39,257,31.8,,,,,35.0
+Actual,Melanoma of the skin,2010,Females,15-19,13,1.8,,,,,15.0
+Actual,Melanoma of the skin,2010,Females,20-24,60,7.7,,,,,20.0
+Actual,Melanoma of the skin,2010,Females,25-29,143,17.9,,,,,25.0
+Actual,Melanoma of the skin,2010,Females,30-34,170,22.7,,,,,30.0
+Actual,Melanoma of the skin,2010,Females,35-39,235,29.1,,,,,35.0
+Actual,Melanoma of the skin,2011,Females,15-19,20,2.8,,,,,15.0
+Actual,Melanoma of the skin,2011,Females,20-24,59,7.5,,,,,20.0
+Actual,Melanoma of the skin,2011,Females,25-29,115,14.1,,,,,25.0
+Actual,Melanoma of the skin,2011,Females,30-34,139,18.1,,,,,30.0
+Actual,Melanoma of the skin,2011,Females,35-39,273,34.5,,,,,35.0
+Actual,Melanoma of the skin,2012,Females,15-19,18,2.5,,,,,15.0
+Actual,Melanoma of the skin,2012,Females,20-24,63,7.9,,,,,20.0
+Actual,Melanoma of the skin,2012,Females,25-29,131,15.6,,,,,25.0
+Actual,Melanoma of the skin,2012,Females,30-34,182,23.0,,,,,30.0
+Actual,Melanoma of the skin,2012,Females,35-39,248,31.8,,,,,35.0
+Actual,Melanoma of the skin,2013,Females,15-19,21,2.9,,,,,15.0
+Actual,Melanoma of the skin,2013,Females,20-24,60,7.4,,,,,20.0
+Actual,Melanoma of the skin,2013,Females,25-29,136,15.9,,,,,25.0
+Actual,Melanoma of the skin,2013,Females,30-34,188,22.9,,,,,30.0
+Actual,Melanoma of the skin,2013,Females,35-39,250,32.2,,,,,35.0
+Actual,Melanoma of the skin,2014,Females,15-19,19,2.7,,,,,15.0
+Actual,Melanoma of the skin,2014,Females,20-24,62,7.6,,,,,20.0
+Actual,Melanoma of the skin,2014,Females,25-29,117,13.4,,,,,25.0
+Actual,Melanoma of the skin,2014,Females,30-34,184,21.6,,,,,30.0
+Actual,Melanoma of the skin,2014,Females,35-39,220,28.3,,,,,35.0
+Actual,Melanoma of the skin,2015,Females,15-19,13,1.8,,,,,15.0
+Actual,Melanoma of the skin,2015,Females,20-24,57,7.0,,,,,20.0
+Actual,Melanoma of the skin,2015,Females,25-29,145,16.3,,,,,25.0
+Actual,Melanoma of the skin,2015,Females,30-34,194,22.1,,,,,30.0
+Actual,Melanoma of the skin,2015,Females,35-39,231,29.3,,,,,35.0
+Actual,Melanoma of the skin,2016,Females,15-19,22,3.1,,,,,15.0
+Actual,Melanoma of the skin,2016,Females,20-24,59,7.1,,,,,20.0
+Actual,Melanoma of the skin,2016,Females,25-29,151,16.7,,,,,25.0
+Actual,Melanoma of the skin,2016,Females,30-34,213,23.6,,,,,30.0
+Actual,Melanoma of the skin,2016,Females,35-39,278,34.5,,,,,35.0
+Actual,Melanoma of the skin,2017,Females,15-19,19,2.6,,,,,15.0
+Actual,Melanoma of the skin,2017,Females,20-24,56,6.7,,,,,20.0
+Actual,Melanoma of the skin,2017,Females,25-29,107,11.6,,,,,25.0
+Actual,Melanoma of the skin,2017,Females,30-34,215,23.3,,,,,30.0
+Actual,Melanoma of the skin,2017,Females,35-39,250,30.0,,,,,35.0
+Actual,Melanoma of the skin,2018,Females,15-19,18,2.5,,,,,15.0
+Actual,Melanoma of the skin,2018,Females,20-24,61,7.2,,,,,20.0
+Actual,Melanoma of the skin,2018,Females,25-29,121,13.0,,,,,25.0
+Actual,Melanoma of the skin,2018,Females,30-34,219,23.3,,,,,30.0
+Actual,Melanoma of the skin,2018,Females,35-39,278,32.0,,,,,35.0
+Actual,Melanoma of the skin,2019,Females,15-19,18,2.5,,,,,15.0
+Actual,Melanoma of the skin,2019,Females,20-24,66,7.8,,,,,20.0
+Actual,Melanoma of the skin,2019,Females,25-29,119,12.6,,,,,25.0
+Actual,Melanoma of the skin,2019,Females,30-34,218,22.9,,,,,30.0
+Actual,Melanoma of the skin,2019,Females,35-39,268,29.8,,,,,35.0
+Projections,Melanoma of the skin,2020,Females,15-19,20,2.8,,,,,15.0
+Projections,Melanoma of the skin,2020,Females,20-24,59,7.1,,,,,20.0
+Projections,Melanoma of the skin,2020,Females,25-29,116,12.4,,,,,25.0
+Projections,Melanoma of the skin,2020,Females,30-34,228,23.7,,,,,30.0
+Projections,Melanoma of the skin,2020,Females,35-39,285,30.8,,,,,35.0
+Projections,Melanoma of the skin,2021,Females,15-19,20,2.8,,,,,15.0
+Projections,Melanoma of the skin,2021,Females,20-24,55,7.0,,,,,20.0
+Projections,Melanoma of the skin,2021,Females,25-29,107,11.8,,,,,25.0
+Projections,Melanoma of the skin,2021,Females,30-34,231,24.1,,,,,30.0
+Projections,Melanoma of the skin,2021,Females,35-39,288,30.7,,,,,35.0
+Projections,Melanoma of the skin,2022,Females,15-19,21,2.8,,,,,15.0
+Projections,Melanoma of the skin,2022,Females,20-24,56,7.1,,,,,20.0
+Projections,Melanoma of the skin,2022,Females,25-29,104,11.5,,,,,25.0
+Projections,Melanoma of the skin,2022,Females,30-34,235,24.3,,,,,30.0
+Projections,Melanoma of the skin,2022,Females,35-39,292,30.6,,,,,35.0
+Projections,Melanoma of the skin,2023,Females,15-19,22,2.9,,,,,15.0
+Projections,Melanoma of the skin,2023,Females,20-24,56,7.1,,,,,20.0
+Projections,Melanoma of the skin,2023,Females,25-29,100,11.1,,,,,25.0
+Projections,Melanoma of the skin,2023,Females,30-34,239,24.5,,,,,30.0
+Projections,Melanoma of the skin,2023,Females,35-39,295,30.6,,,,,35.0
+Actual,Melanoma of the skin,1982,Males,15-19,30,4.6,,,,,15.0
+Actual,Melanoma of the skin,1982,Males,20-24,52,7.7,,,,,20.0
+Actual,Melanoma of the skin,1982,Males,25-29,83,13.1,,,,,25.0
+Actual,Melanoma of the skin,1982,Males,30-34,125,20.1,,,,,30.0
+Actual,Melanoma of the skin,1982,Males,35-39,115,21.0,,,,,35.0
+Actual,Melanoma of the skin,1983,Males,15-19,27,4.1,,,,,15.0
+Actual,Melanoma of the skin,1983,Males,20-24,51,7.5,,,,,20.0
+Actual,Melanoma of the skin,1983,Males,25-29,77,12.0,,,,,25.0
+Actual,Melanoma of the skin,1983,Males,30-34,125,20.0,,,,,30.0
+Actual,Melanoma of the skin,1983,Males,35-39,135,23.2,,,,,35.0
+Actual,Melanoma of the skin,1984,Males,15-19,35,5.3,,,,,15.0
+Actual,Melanoma of the skin,1984,Males,20-24,55,8.0,,,,,20.0
+Actual,Melanoma of the skin,1984,Males,25-29,92,14.1,,,,,25.0
+Actual,Melanoma of the skin,1984,Males,30-34,111,17.7,,,,,30.0
+Actual,Melanoma of the skin,1984,Males,35-39,133,22.1,,,,,35.0
+Actual,Melanoma of the skin,1985,Males,15-19,27,4.0,,,,,15.0
+Actual,Melanoma of the skin,1985,Males,20-24,59,8.6,,,,,20.0
+Actual,Melanoma of the skin,1985,Males,25-29,107,16.0,,,,,25.0
+Actual,Melanoma of the skin,1985,Males,30-34,139,22.2,,,,,30.0
+Actual,Melanoma of the skin,1985,Males,35-39,163,26.1,,,,,35.0
+Actual,Melanoma of the skin,1986,Males,15-19,40,5.8,,,,,15.0
+Actual,Melanoma of the skin,1986,Males,20-24,62,9.1,,,,,20.0
+Actual,Melanoma of the skin,1986,Males,25-29,101,14.8,,,,,25.0
+Actual,Melanoma of the skin,1986,Males,30-34,156,24.5,,,,,30.0
+Actual,Melanoma of the skin,1986,Males,35-39,186,29.0,,,,,35.0
+Actual,Melanoma of the skin,1987,Males,15-19,42,5.9,,,,,15.0
+Actual,Melanoma of the skin,1987,Males,20-24,76,11.3,,,,,20.0
+Actual,Melanoma of the skin,1987,Males,25-29,145,20.8,,,,,25.0
+Actual,Melanoma of the skin,1987,Males,30-34,191,29.4,,,,,30.0
+Actual,Melanoma of the skin,1987,Males,35-39,225,35.4,,,,,35.0
+Actual,Melanoma of the skin,1988,Males,15-19,56,7.8,,,,,15.0
+Actual,Melanoma of the skin,1988,Males,20-24,90,13.4,,,,,20.0
+Actual,Melanoma of the skin,1988,Males,25-29,162,22.9,,,,,25.0
+Actual,Melanoma of the skin,1988,Males,30-34,189,28.5,,,,,30.0
+Actual,Melanoma of the skin,1988,Males,35-39,229,35.7,,,,,35.0
+Actual,Melanoma of the skin,1989,Males,15-19,37,5.1,,,,,15.0
+Actual,Melanoma of the skin,1989,Males,20-24,66,9.7,,,,,20.0
+Actual,Melanoma of the skin,1989,Males,25-29,110,15.3,,,,,25.0
+Actual,Melanoma of the skin,1989,Males,30-34,171,25.1,,,,,30.0
+Actual,Melanoma of the skin,1989,Males,35-39,214,33.0,,,,,35.0
+Actual,Melanoma of the skin,1990,Males,15-19,47,6.6,,,,,15.0
+Actual,Melanoma of the skin,1990,Males,20-24,64,9.3,,,,,20.0
+Actual,Melanoma of the skin,1990,Males,25-29,116,16.2,,,,,25.0
+Actual,Melanoma of the skin,1990,Males,30-34,171,24.5,,,,,30.0
+Actual,Melanoma of the skin,1990,Males,35-39,195,29.7,,,,,35.0
+Actual,Melanoma of the skin,1991,Males,15-19,53,7.6,,,,,15.0
+Actual,Melanoma of the skin,1991,Males,20-24,63,8.9,,,,,20.0
+Actual,Melanoma of the skin,1991,Males,25-29,127,18.1,,,,,25.0
+Actual,Melanoma of the skin,1991,Males,30-34,163,22.8,,,,,30.0
+Actual,Melanoma of the skin,1991,Males,35-39,202,30.4,,,,,35.0
+Actual,Melanoma of the skin,1992,Males,15-19,39,5.8,,,,,15.0
+Actual,Melanoma of the skin,1992,Males,20-24,91,12.6,,,,,20.0
+Actual,Melanoma of the skin,1992,Males,25-29,114,16.5,,,,,25.0
+Actual,Melanoma of the skin,1992,Males,30-34,152,20.9,,,,,30.0
+Actual,Melanoma of the skin,1992,Males,35-39,221,32.7,,,,,35.0
+Actual,Melanoma of the skin,1993,Males,15-19,39,5.9,,,,,15.0
+Actual,Melanoma of the skin,1993,Males,20-24,75,10.3,,,,,20.0
+Actual,Melanoma of the skin,1993,Males,25-29,120,17.6,,,,,25.0
+Actual,Melanoma of the skin,1993,Males,30-34,144,19.7,,,,,30.0
+Actual,Melanoma of the skin,1993,Males,35-39,225,32.9,,,,,35.0
+Actual,Melanoma of the skin,1994,Males,15-19,34,5.2,,,,,15.0
+Actual,Melanoma of the skin,1994,Males,20-24,89,12.2,,,,,20.0
+Actual,Melanoma of the skin,1994,Males,25-29,134,19.7,,,,,25.0
+Actual,Melanoma of the skin,1994,Males,30-34,171,23.3,,,,,30.0
+Actual,Melanoma of the skin,1994,Males,35-39,227,32.7,,,,,35.0
+Actual,Melanoma of the skin,1995,Males,15-19,59,9.1,,,,,15.0
+Actual,Melanoma of the skin,1995,Males,20-24,86,11.9,,,,,20.0
+Actual,Melanoma of the skin,1995,Males,25-29,137,19.9,,,,,25.0
+Actual,Melanoma of the skin,1995,Males,30-34,172,23.6,,,,,30.0
+Actual,Melanoma of the skin,1995,Males,35-39,224,31.6,,,,,35.0
+Actual,Melanoma of the skin,1996,Males,15-19,55,8.4,,,,,15.0
+Actual,Melanoma of the skin,1996,Males,20-24,69,9.8,,,,,20.0
+Actual,Melanoma of the skin,1996,Males,25-29,154,21.8,,,,,25.0
+Actual,Melanoma of the skin,1996,Males,30-34,158,22.0,,,,,30.0
+Actual,Melanoma of the skin,1996,Males,35-39,228,31.5,,,,,35.0
+Actual,Melanoma of the skin,1997,Males,15-19,37,5.7,,,,,15.0
+Actual,Melanoma of the skin,1997,Males,20-24,91,13.3,,,,,20.0
+Actual,Melanoma of the skin,1997,Males,25-29,148,20.5,,,,,25.0
+Actual,Melanoma of the skin,1997,Males,30-34,185,26.2,,,,,30.0
+Actual,Melanoma of the skin,1997,Males,35-39,238,32.4,,,,,35.0
+Actual,Melanoma of the skin,1998,Males,15-19,28,4.3,,,,,15.0
+Actual,Melanoma of the skin,1998,Males,20-24,60,9.0,,,,,20.0
+Actual,Melanoma of the skin,1998,Males,25-29,121,16.6,,,,,25.0
+Actual,Melanoma of the skin,1998,Males,30-34,160,22.9,,,,,30.0
+Actual,Melanoma of the skin,1998,Males,35-39,233,31.4,,,,,35.0
+Actual,Melanoma of the skin,1999,Males,15-19,44,6.7,,,,,15.0
+Actual,Melanoma of the skin,1999,Males,20-24,69,10.5,,,,,20.0
+Actual,Melanoma of the skin,1999,Males,25-29,125,17.2,,,,,25.0
+Actual,Melanoma of the skin,1999,Males,30-34,172,24.7,,,,,30.0
+Actual,Melanoma of the skin,1999,Males,35-39,245,32.8,,,,,35.0
+Actual,Melanoma of the skin,2000,Males,15-19,34,5.1,,,,,15.0
+Actual,Melanoma of the skin,2000,Males,20-24,71,10.9,,,,,20.0
+Actual,Melanoma of the skin,2000,Males,25-29,131,18.3,,,,,25.0
+Actual,Melanoma of the skin,2000,Males,30-34,166,23.6,,,,,30.0
+Actual,Melanoma of the skin,2000,Males,35-39,229,30.8,,,,,35.0
+Actual,Melanoma of the skin,2001,Males,15-19,42,6.1,,,,,15.0
+Actual,Melanoma of the skin,2001,Males,20-24,54,8.3,,,,,20.0
+Actual,Melanoma of the skin,2001,Males,25-29,134,19.3,,,,,25.0
+Actual,Melanoma of the skin,2001,Males,30-34,163,22.6,,,,,30.0
+Actual,Melanoma of the skin,2001,Males,35-39,238,32.3,,,,,35.0
+Actual,Melanoma of the skin,2002,Males,15-19,37,5.4,,,,,15.0
+Actual,Melanoma of the skin,2002,Males,20-24,76,11.4,,,,,20.0
+Actual,Melanoma of the skin,2002,Males,25-29,110,16.1,,,,,25.0
+Actual,Melanoma of the skin,2002,Males,30-34,178,24.1,,,,,30.0
+Actual,Melanoma of the skin,2002,Males,35-39,228,31.3,,,,,35.0
+Actual,Melanoma of the skin,2003,Males,15-19,33,4.8,,,,,15.0
+Actual,Melanoma of the skin,2003,Males,20-24,56,8.2,,,,,20.0
+Actual,Melanoma of the skin,2003,Males,25-29,110,16.3,,,,,25.0
+Actual,Melanoma of the skin,2003,Males,30-34,167,22.3,,,,,30.0
+Actual,Melanoma of the skin,2003,Males,35-39,232,32.2,,,,,35.0
+Actual,Melanoma of the skin,2004,Males,15-19,31,4.4,,,,,15.0
+Actual,Melanoma of the skin,2004,Males,20-24,79,11.2,,,,,20.0
+Actual,Melanoma of the skin,2004,Males,25-29,116,17.2,,,,,25.0
+Actual,Melanoma of the skin,2004,Males,30-34,195,26.0,,,,,30.0
+Actual,Melanoma of the skin,2004,Males,35-39,206,28.6,,,,,35.0
+Actual,Melanoma of the skin,2005,Males,15-19,32,4.5,,,,,15.0
+Actual,Melanoma of the skin,2005,Males,20-24,58,8.1,,,,,20.0
+Actual,Melanoma of the skin,2005,Males,25-29,122,17.9,,,,,25.0
+Actual,Melanoma of the skin,2005,Males,30-34,172,23.1,,,,,30.0
+Actual,Melanoma of the skin,2005,Males,35-39,227,31.1,,,,,35.0
+Actual,Melanoma of the skin,2006,Males,15-19,31,4.3,,,,,15.0
+Actual,Melanoma of the skin,2006,Males,20-24,60,8.1,,,,,20.0
+Actual,Melanoma of the skin,2006,Males,25-29,110,15.8,,,,,25.0
+Actual,Melanoma of the skin,2006,Males,30-34,171,23.3,,,,,30.0
+Actual,Melanoma of the skin,2006,Males,35-39,224,29.9,,,,,35.0
+Actual,Melanoma of the skin,2007,Males,15-19,17,2.3,,,,,15.0
+Actual,Melanoma of the skin,2007,Males,20-24,56,7.4,,,,,20.0
+Actual,Melanoma of the skin,2007,Males,25-29,86,11.9,,,,,25.0
+Actual,Melanoma of the skin,2007,Males,30-34,156,21.5,,,,,30.0
+Actual,Melanoma of the skin,2007,Males,35-39,191,24.7,,,,,35.0
+Actual,Melanoma of the skin,2008,Males,15-19,22,3.0,,,,,15.0
+Actual,Melanoma of the skin,2008,Males,20-24,59,7.5,,,,,20.0
+Actual,Melanoma of the skin,2008,Males,25-29,87,11.5,,,,,25.0
+Actual,Melanoma of the skin,2008,Males,30-34,141,19.4,,,,,30.0
+Actual,Melanoma of the skin,2008,Males,35-39,254,32.2,,,,,35.0
+Actual,Melanoma of the skin,2009,Males,15-19,27,3.6,,,,,15.0
+Actual,Melanoma of the skin,2009,Males,20-24,48,5.9,,,,,20.0
+Actual,Melanoma of the skin,2009,Males,25-29,101,12.6,,,,,25.0
+Actual,Melanoma of the skin,2009,Males,30-34,148,20.0,,,,,30.0
+Actual,Melanoma of the skin,2009,Males,35-39,256,32.1,,,,,35.0
+Actual,Melanoma of the skin,2010,Males,15-19,18,2.4,,,,,15.0
+Actual,Melanoma of the skin,2010,Males,20-24,29,3.5,,,,,20.0
+Actual,Melanoma of the skin,2010,Males,25-29,104,12.6,,,,,25.0
+Actual,Melanoma of the skin,2010,Males,30-34,154,20.5,,,,,30.0
+Actual,Melanoma of the skin,2010,Males,35-39,216,27.2,,,,,35.0
+Actual,Melanoma of the skin,2011,Males,15-19,18,2.4,,,,,15.0
+Actual,Melanoma of the skin,2011,Males,20-24,44,5.3,,,,,20.0
+Actual,Melanoma of the skin,2011,Males,25-29,98,11.7,,,,,25.0
+Actual,Melanoma of the skin,2011,Males,30-34,142,18.5,,,,,30.0
+Actual,Melanoma of the skin,2011,Males,35-39,194,24.8,,,,,35.0
+Actual,Melanoma of the skin,2012,Males,15-19,16,2.1,,,,,15.0
+Actual,Melanoma of the skin,2012,Males,20-24,51,6.1,,,,,20.0
+Actual,Melanoma of the skin,2012,Males,25-29,100,11.6,,,,,25.0
+Actual,Melanoma of the skin,2012,Males,30-34,152,19.0,,,,,30.0
+Actual,Melanoma of the skin,2012,Males,35-39,202,26.0,,,,,35.0
+Actual,Melanoma of the skin,2013,Males,15-19,13,1.7,,,,,15.0
+Actual,Melanoma of the skin,2013,Males,20-24,45,5.4,,,,,20.0
+Actual,Melanoma of the skin,2013,Males,25-29,93,10.6,,,,,25.0
+Actual,Melanoma of the skin,2013,Males,30-34,136,16.4,,,,,30.0
+Actual,Melanoma of the skin,2013,Males,35-39,211,27.2,,,,,35.0
+Actual,Melanoma of the skin,2014,Males,15-19,16,2.1,,,,,15.0
+Actual,Melanoma of the skin,2014,Males,20-24,44,5.2,,,,,20.0
+Actual,Melanoma of the skin,2014,Males,25-29,86,9.7,,,,,25.0
+Actual,Melanoma of the skin,2014,Males,30-34,137,16.0,,,,,30.0
+Actual,Melanoma of the skin,2014,Males,35-39,205,26.4,,,,,35.0
+Actual,Melanoma of the skin,2015,Males,15-19,10,1.3,,,,,15.0
+Actual,Melanoma of the skin,2015,Males,20-24,42,4.9,,,,,20.0
+Actual,Melanoma of the skin,2015,Males,25-29,82,9.2,,,,,25.0
+Actual,Melanoma of the skin,2015,Males,30-34,137,15.7,,,,,30.0
+Actual,Melanoma of the skin,2015,Males,35-39,189,24.1,,,,,35.0
+Actual,Melanoma of the skin,2016,Males,15-19,13,1.7,,,,,15.0
+Actual,Melanoma of the skin,2016,Males,20-24,38,4.4,,,,,20.0
+Actual,Melanoma of the skin,2016,Males,25-29,89,9.8,,,,,25.0
+Actual,Melanoma of the skin,2016,Males,30-34,159,17.8,,,,,30.0
+Actual,Melanoma of the skin,2016,Males,35-39,218,27.2,,,,,35.0
+Actual,Melanoma of the skin,2017,Males,15-19,13,1.7,,,,,15.0
+Actual,Melanoma of the skin,2017,Males,20-24,32,3.7,,,,,20.0
+Actual,Melanoma of the skin,2017,Males,25-29,101,10.9,,,,,25.0
+Actual,Melanoma of the skin,2017,Males,30-34,166,18.2,,,,,30.0
+Actual,Melanoma of the skin,2017,Males,35-39,213,25.7,,,,,35.0
+Actual,Melanoma of the skin,2018,Males,15-19,15,2.0,,,,,15.0
+Actual,Melanoma of the skin,2018,Males,20-24,53,6.0,,,,,20.0
+Actual,Melanoma of the skin,2018,Males,25-29,88,9.4,,,,,25.0
+Actual,Melanoma of the skin,2018,Males,30-34,138,15.0,,,,,30.0
+Actual,Melanoma of the skin,2018,Males,35-39,213,24.8,,,,,35.0
+Actual,Melanoma of the skin,2019,Males,15-19,18,2.3,,,,,15.0
+Actual,Melanoma of the skin,2019,Males,20-24,54,6.0,,,,,20.0
+Actual,Melanoma of the skin,2019,Males,25-29,83,8.7,,,,,25.0
+Actual,Melanoma of the skin,2019,Males,30-34,161,17.2,,,,,30.0
+Actual,Melanoma of the skin,2019,Males,35-39,223,25.1,,,,,35.0
+Projections,Melanoma of the skin,2020,Males,15-19,13,1.7,,,,,15.0
+Projections,Melanoma of the skin,2020,Males,20-24,47,5.4,,,,,20.0
+Projections,Melanoma of the skin,2020,Males,25-29,82,8.6,,,,,25.0
+Projections,Melanoma of the skin,2020,Males,30-34,146,15.4,,,,,30.0
+Projections,Melanoma of the skin,2020,Males,35-39,230,25.1,,,,,35.0
+Projections,Melanoma of the skin,2021,Males,15-19,12,1.6,,,,,15.0
+Projections,Melanoma of the skin,2021,Males,20-24,46,5.5,,,,,20.0
+Projections,Melanoma of the skin,2021,Males,25-29,76,8.3,,,,,25.0
+Projections,Melanoma of the skin,2021,Males,30-34,142,15.1,,,,,30.0
+Projections,Melanoma of the skin,2021,Males,35-39,232,25.0,,,,,35.0
+Projections,Melanoma of the skin,2022,Males,15-19,12,1.5,,,,,15.0
+Projections,Melanoma of the skin,2022,Males,20-24,47,5.6,,,,,20.0
+Projections,Melanoma of the skin,2022,Males,25-29,73,7.9,,,,,25.0
+Projections,Melanoma of the skin,2022,Males,30-34,142,15.0,,,,,30.0
+Projections,Melanoma of the skin,2022,Males,35-39,233,24.8,,,,,35.0
+Projections,Melanoma of the skin,2023,Males,15-19,14,1.7,,,,,15.0
+Projections,Melanoma of the skin,2023,Males,20-24,47,5.6,,,,,20.0
+Projections,Melanoma of the skin,2023,Males,25-29,69,7.5,,,,,25.0
+Projections,Melanoma of the skin,2023,Males,30-34,140,14.7,,,,,30.0
+Projections,Melanoma of the skin,2023,Males,35-39,233,24.7,,,,,35.0
+Actual,Melanoma of the skin,1982,Persons,15-19,69,5.4,,,,,15.0
+Actual,Melanoma of the skin,1982,Persons,20-24,144,10.8,,,,,20.0
+Actual,Melanoma of the skin,1982,Persons,25-29,211,16.8,,,,,25.0
+Actual,Melanoma of the skin,1982,Persons,30-34,288,23.4,,,,,30.0
+Actual,Melanoma of the skin,1982,Persons,35-39,286,26.6,,,,,35.0
+Actual,Melanoma of the skin,1983,Persons,15-19,60,4.7,,,,,15.0
+Actual,Melanoma of the skin,1983,Persons,20-24,150,11.1,,,,,20.0
+Actual,Melanoma of the skin,1983,Persons,25-29,238,18.7,,,,,25.0
+Actual,Melanoma of the skin,1983,Persons,30-34,313,25.3,,,,,30.0
+Actual,Melanoma of the skin,1983,Persons,35-39,325,28.5,,,,,35.0
+Actual,Melanoma of the skin,1984,Persons,15-19,68,5.3,,,,,15.0
+Actual,Melanoma of the skin,1984,Persons,20-24,138,10.2,,,,,20.0
+Actual,Melanoma of the skin,1984,Persons,25-29,222,17.2,,,,,25.0
+Actual,Melanoma of the skin,1984,Persons,30-34,301,24.1,,,,,30.0
+Actual,Melanoma of the skin,1984,Persons,35-39,330,27.9,,,,,35.0
+Actual,Melanoma of the skin,1985,Persons,15-19,58,4.4,,,,,15.0
+Actual,Melanoma of the skin,1985,Persons,20-24,159,11.8,,,,,20.0
+Actual,Melanoma of the skin,1985,Persons,25-29,265,20.1,,,,,25.0
+Actual,Melanoma of the skin,1985,Persons,30-34,340,27.1,,,,,30.0
+Actual,Melanoma of the skin,1985,Persons,35-39,411,33.5,,,,,35.0
+Actual,Melanoma of the skin,1986,Persons,15-19,83,6.2,,,,,15.0
+Actual,Melanoma of the skin,1986,Persons,20-24,159,11.9,,,,,20.0
+Actual,Melanoma of the skin,1986,Persons,25-29,228,16.9,,,,,25.0
+Actual,Melanoma of the skin,1986,Persons,30-34,344,27.1,,,,,30.0
+Actual,Melanoma of the skin,1986,Persons,35-39,431,34.0,,,,,35.0
+Actual,Melanoma of the skin,1987,Persons,15-19,91,6.6,,,,,15.0
+Actual,Melanoma of the skin,1987,Persons,20-24,182,13.7,,,,,20.0
+Actual,Melanoma of the skin,1987,Persons,25-29,332,24.1,,,,,25.0
+Actual,Melanoma of the skin,1987,Persons,30-34,406,31.3,,,,,30.0
+Actual,Melanoma of the skin,1987,Persons,35-39,488,38.7,,,,,35.0
+Actual,Melanoma of the skin,1988,Persons,15-19,108,7.7,,,,,15.0
+Actual,Melanoma of the skin,1988,Persons,20-24,196,14.8,,,,,20.0
+Actual,Melanoma of the skin,1988,Persons,25-29,343,24.4,,,,,25.0
+Actual,Melanoma of the skin,1988,Persons,30-34,414,31.3,,,,,30.0
+Actual,Melanoma of the skin,1988,Persons,35-39,488,38.3,,,,,35.0
+Actual,Melanoma of the skin,1989,Persons,15-19,83,5.9,,,,,15.0
+Actual,Melanoma of the skin,1989,Persons,20-24,174,13.0,,,,,20.0
+Actual,Melanoma of the skin,1989,Persons,25-29,260,18.3,,,,,25.0
+Actual,Melanoma of the skin,1989,Persons,30-34,353,26.0,,,,,30.0
+Actual,Melanoma of the skin,1989,Persons,35-39,452,34.9,,,,,35.0
+Actual,Melanoma of the skin,1990,Persons,15-19,89,6.3,,,,,15.0
+Actual,Melanoma of the skin,1990,Persons,20-24,167,12.3,,,,,20.0
+Actual,Melanoma of the skin,1990,Persons,25-29,256,18.0,,,,,25.0
+Actual,Melanoma of the skin,1990,Persons,30-34,334,24.0,,,,,30.0
+Actual,Melanoma of the skin,1990,Persons,35-39,438,33.4,,,,,35.0
+Actual,Melanoma of the skin,1991,Persons,15-19,111,8.1,,,,,15.0
+Actual,Melanoma of the skin,1991,Persons,20-24,159,11.4,,,,,20.0
+Actual,Melanoma of the skin,1991,Persons,25-29,264,18.9,,,,,25.0
+Actual,Melanoma of the skin,1991,Persons,30-34,365,25.6,,,,,30.0
+Actual,Melanoma of the skin,1991,Persons,35-39,445,33.5,,,,,35.0
+Actual,Melanoma of the skin,1992,Persons,15-19,65,4.9,,,,,15.0
+Actual,Melanoma of the skin,1992,Persons,20-24,189,13.2,,,,,20.0
+Actual,Melanoma of the skin,1992,Persons,25-29,260,18.8,,,,,25.0
+Actual,Melanoma of the skin,1992,Persons,30-34,362,25.0,,,,,30.0
+Actual,Melanoma of the skin,1992,Persons,35-39,470,34.8,,,,,35.0
+Actual,Melanoma of the skin,1993,Persons,15-19,85,6.6,,,,,15.0
+Actual,Melanoma of the skin,1993,Persons,20-24,157,10.9,,,,,20.0
+Actual,Melanoma of the skin,1993,Persons,25-29,252,18.5,,,,,25.0
+Actual,Melanoma of the skin,1993,Persons,30-34,361,24.7,,,,,30.0
+Actual,Melanoma of the skin,1993,Persons,35-39,468,34.1,,,,,35.0
+Actual,Melanoma of the skin,1994,Persons,15-19,72,5.7,,,,,15.0
+Actual,Melanoma of the skin,1994,Persons,20-24,200,13.9,,,,,20.0
+Actual,Melanoma of the skin,1994,Persons,25-29,274,20.2,,,,,25.0
+Actual,Melanoma of the skin,1994,Persons,30-34,371,25.3,,,,,30.0
+Actual,Melanoma of the skin,1994,Persons,35-39,449,32.3,,,,,35.0
+Actual,Melanoma of the skin,1995,Persons,15-19,103,8.2,,,,,15.0
+Actual,Melanoma of the skin,1995,Persons,20-24,206,14.5,,,,,20.0
+Actual,Melanoma of the skin,1995,Persons,25-29,313,22.8,,,,,25.0
+Actual,Melanoma of the skin,1995,Persons,30-34,444,30.5,,,,,30.0
+Actual,Melanoma of the skin,1995,Persons,35-39,494,34.8,,,,,35.0
+Actual,Melanoma of the skin,1996,Persons,15-19,116,9.1,,,,,15.0
+Actual,Melanoma of the skin,1996,Persons,20-24,174,12.5,,,,,20.0
+Actual,Melanoma of the skin,1996,Persons,25-29,319,22.6,,,,,25.0
+Actual,Melanoma of the skin,1996,Persons,30-34,391,27.2,,,,,30.0
+Actual,Melanoma of the skin,1996,Persons,35-39,512,35.3,,,,,35.0
+Actual,Melanoma of the skin,1997,Persons,15-19,100,7.9,,,,,15.0
+Actual,Melanoma of the skin,1997,Persons,20-24,207,15.3,,,,,20.0
+Actual,Melanoma of the skin,1997,Persons,25-29,329,22.8,,,,,25.0
+Actual,Melanoma of the skin,1997,Persons,30-34,417,29.4,,,,,30.0
+Actual,Melanoma of the skin,1997,Persons,35-39,528,35.8,,,,,35.0
+Actual,Melanoma of the skin,1998,Persons,15-19,64,5.0,,,,,15.0
+Actual,Melanoma of the skin,1998,Persons,20-24,153,11.6,,,,,20.0
+Actual,Melanoma of the skin,1998,Persons,25-29,272,18.7,,,,,25.0
+Actual,Melanoma of the skin,1998,Persons,30-34,402,28.6,,,,,30.0
+Actual,Melanoma of the skin,1998,Persons,35-39,498,33.4,,,,,35.0
+Actual,Melanoma of the skin,1999,Persons,15-19,78,6.0,,,,,15.0
+Actual,Melanoma of the skin,1999,Persons,20-24,188,14.6,,,,,20.0
+Actual,Melanoma of the skin,1999,Persons,25-29,272,18.7,,,,,25.0
+Actual,Melanoma of the skin,1999,Persons,30-34,380,27.1,,,,,30.0
+Actual,Melanoma of the skin,1999,Persons,35-39,526,35.0,,,,,35.0
+Actual,Melanoma of the skin,2000,Persons,15-19,72,5.5,,,,,15.0
+Actual,Melanoma of the skin,2000,Persons,20-24,164,12.8,,,,,20.0
+Actual,Melanoma of the skin,2000,Persons,25-29,281,19.5,,,,,25.0
+Actual,Melanoma of the skin,2000,Persons,30-34,386,27.2,,,,,30.0
+Actual,Melanoma of the skin,2000,Persons,35-39,530,35.4,,,,,35.0
+Actual,Melanoma of the skin,2001,Persons,15-19,83,6.2,,,,,15.0
+Actual,Melanoma of the skin,2001,Persons,20-24,133,10.3,,,,,20.0
+Actual,Melanoma of the skin,2001,Persons,25-29,278,19.9,,,,,25.0
+Actual,Melanoma of the skin,2001,Persons,30-34,381,26.1,,,,,30.0
+Actual,Melanoma of the skin,2001,Persons,35-39,517,34.9,,,,,35.0
+Actual,Melanoma of the skin,2002,Persons,15-19,79,5.8,,,,,15.0
+Actual,Melanoma of the skin,2002,Persons,20-24,169,12.8,,,,,20.0
+Actual,Melanoma of the skin,2002,Persons,25-29,256,18.8,,,,,25.0
+Actual,Melanoma of the skin,2002,Persons,30-34,398,26.7,,,,,30.0
+Actual,Melanoma of the skin,2002,Persons,35-39,481,32.8,,,,,35.0
+Actual,Melanoma of the skin,2003,Persons,15-19,64,4.7,,,,,15.0
+Actual,Melanoma of the skin,2003,Persons,20-24,151,11.2,,,,,20.0
+Actual,Melanoma of the skin,2003,Persons,25-29,233,17.3,,,,,25.0
+Actual,Melanoma of the skin,2003,Persons,30-34,378,25.1,,,,,30.0
+Actual,Melanoma of the skin,2003,Persons,35-39,493,34.0,,,,,35.0
+Actual,Melanoma of the skin,2004,Persons,15-19,65,4.8,,,,,15.0
+Actual,Melanoma of the skin,2004,Persons,20-24,170,12.3,,,,,20.0
+Actual,Melanoma of the skin,2004,Persons,25-29,253,18.8,,,,,25.0
+Actual,Melanoma of the skin,2004,Persons,30-34,412,27.3,,,,,30.0
+Actual,Melanoma of the skin,2004,Persons,35-39,442,30.5,,,,,35.0
+Actual,Melanoma of the skin,2005,Persons,15-19,60,4.3,,,,,15.0
+Actual,Melanoma of the skin,2005,Persons,20-24,136,9.6,,,,,20.0
+Actual,Melanoma of the skin,2005,Persons,25-29,290,21.4,,,,,25.0
+Actual,Melanoma of the skin,2005,Persons,30-34,412,27.5,,,,,30.0
+Actual,Melanoma of the skin,2005,Persons,35-39,483,32.9,,,,,35.0
+Actual,Melanoma of the skin,2006,Persons,15-19,58,4.2,,,,,15.0
+Actual,Melanoma of the skin,2006,Persons,20-24,139,9.6,,,,,20.0
+Actual,Melanoma of the skin,2006,Persons,25-29,251,18.2,,,,,25.0
+Actual,Melanoma of the skin,2006,Persons,30-34,381,25.8,,,,,30.0
+Actual,Melanoma of the skin,2006,Persons,35-39,471,31.2,,,,,35.0
+Actual,Melanoma of the skin,2007,Persons,15-19,37,2.6,,,,,15.0
+Actual,Melanoma of the skin,2007,Persons,20-24,139,9.4,,,,,20.0
+Actual,Melanoma of the skin,2007,Persons,25-29,203,14.2,,,,,25.0
+Actual,Melanoma of the skin,2007,Persons,30-34,339,23.3,,,,,30.0
+Actual,Melanoma of the skin,2007,Persons,35-39,480,30.9,,,,,35.0
+Actual,Melanoma of the skin,2008,Persons,15-19,42,2.9,,,,,15.0
+Actual,Melanoma of the skin,2008,Persons,20-24,139,9.1,,,,,20.0
+Actual,Melanoma of the skin,2008,Persons,25-29,209,13.9,,,,,25.0
+Actual,Melanoma of the skin,2008,Persons,30-34,328,22.5,,,,,30.0
+Actual,Melanoma of the skin,2008,Persons,35-39,533,33.5,,,,,35.0
+Actual,Melanoma of the skin,2009,Persons,15-19,55,3.8,,,,,15.0
+Actual,Melanoma of the skin,2009,Persons,20-24,124,7.8,,,,,20.0
+Actual,Melanoma of the skin,2009,Persons,25-29,225,14.3,,,,,25.0
+Actual,Melanoma of the skin,2009,Persons,30-34,324,21.9,,,,,30.0
+Actual,Melanoma of the skin,2009,Persons,35-39,513,32.0,,,,,35.0
+Actual,Melanoma of the skin,2010,Persons,15-19,31,2.1,,,,,15.0
+Actual,Melanoma of the skin,2010,Persons,20-24,89,5.5,,,,,20.0
+Actual,Melanoma of the skin,2010,Persons,25-29,247,15.2,,,,,25.0
+Actual,Melanoma of the skin,2010,Persons,30-34,324,21.6,,,,,30.0
+Actual,Melanoma of the skin,2010,Persons,35-39,451,28.2,,,,,35.0
+Actual,Melanoma of the skin,2011,Persons,15-19,38,2.6,,,,,15.0
+Actual,Melanoma of the skin,2011,Persons,20-24,103,6.4,,,,,20.0
+Actual,Melanoma of the skin,2011,Persons,25-29,213,12.8,,,,,25.0
+Actual,Melanoma of the skin,2011,Persons,30-34,281,18.3,,,,,30.0
+Actual,Melanoma of the skin,2011,Persons,35-39,467,29.7,,,,,35.0
+Actual,Melanoma of the skin,2012,Persons,15-19,34,2.3,,,,,15.0
+Actual,Melanoma of the skin,2012,Persons,20-24,114,7.0,,,,,20.0
+Actual,Melanoma of the skin,2012,Persons,25-29,231,13.6,,,,,25.0
+Actual,Melanoma of the skin,2012,Persons,30-34,334,21.0,,,,,30.0
+Actual,Melanoma of the skin,2012,Persons,35-39,450,28.9,,,,,35.0
+Actual,Melanoma of the skin,2013,Persons,15-19,34,2.3,,,,,15.0
+Actual,Melanoma of the skin,2013,Persons,20-24,105,6.4,,,,,20.0
+Actual,Melanoma of the skin,2013,Persons,25-29,229,13.2,,,,,25.0
+Actual,Melanoma of the skin,2013,Persons,30-34,324,19.6,,,,,30.0
+Actual,Melanoma of the skin,2013,Persons,35-39,461,29.7,,,,,35.0
+Actual,Melanoma of the skin,2014,Persons,15-19,35,2.4,,,,,15.0
+Actual,Melanoma of the skin,2014,Persons,20-24,106,6.4,,,,,20.0
+Actual,Melanoma of the skin,2014,Persons,25-29,203,11.6,,,,,25.0
+Actual,Melanoma of the skin,2014,Persons,30-34,321,18.8,,,,,30.0
+Actual,Melanoma of the skin,2014,Persons,35-39,425,27.3,,,,,35.0
+Actual,Melanoma of the skin,2015,Persons,15-19,23,1.6,,,,,15.0
+Actual,Melanoma of the skin,2015,Persons,20-24,99,5.9,,,,,20.0
+Actual,Melanoma of the skin,2015,Persons,25-29,227,12.7,,,,,25.0
+Actual,Melanoma of the skin,2015,Persons,30-34,331,18.9,,,,,30.0
+Actual,Melanoma of the skin,2015,Persons,35-39,420,26.7,,,,,35.0
+Actual,Melanoma of the skin,2016,Persons,15-19,35,2.4,,,,,15.0
+Actual,Melanoma of the skin,2016,Persons,20-24,97,5.7,,,,,20.0
+Actual,Melanoma of the skin,2016,Persons,25-29,240,13.2,,,,,25.0
+Actual,Melanoma of the skin,2016,Persons,30-34,372,20.7,,,,,30.0
+Actual,Melanoma of the skin,2016,Persons,35-39,496,30.9,,,,,35.0
+Actual,Melanoma of the skin,2017,Persons,15-19,32,2.2,,,,,15.0
+Actual,Melanoma of the skin,2017,Persons,20-24,88,5.1,,,,,20.0
+Actual,Melanoma of the skin,2017,Persons,25-29,208,11.3,,,,,25.0
+Actual,Melanoma of the skin,2017,Persons,30-34,381,20.8,,,,,30.0
+Actual,Melanoma of the skin,2017,Persons,35-39,463,27.9,,,,,35.0
+Actual,Melanoma of the skin,2018,Persons,15-19,33,2.2,,,,,15.0
+Actual,Melanoma of the skin,2018,Persons,20-24,114,6.6,,,,,20.0
+Actual,Melanoma of the skin,2018,Persons,25-29,209,11.2,,,,,25.0
+Actual,Melanoma of the skin,2018,Persons,30-34,357,19.2,,,,,30.0
+Actual,Melanoma of the skin,2018,Persons,35-39,491,28.4,,,,,35.0
+Actual,Melanoma of the skin,2019,Persons,15-19,36,2.4,,,,,15.0
+Actual,Melanoma of the skin,2019,Persons,20-24,120,6.9,,,,,20.0
+Actual,Melanoma of the skin,2019,Persons,25-29,202,10.7,,,,,25.0
+Actual,Melanoma of the skin,2019,Persons,30-34,379,20.1,,,,,30.0
+Actual,Melanoma of the skin,2019,Persons,35-39,491,27.5,,,,,35.0
+Projections,Melanoma of the skin,2020,Persons,15-19,33,2.2,,,,,15.0
+Projections,Melanoma of the skin,2020,Persons,20-24,106,6.2,,,,,20.0
+Projections,Melanoma of the skin,2020,Persons,25-29,198,10.5,,,,,25.0
+Projections,Melanoma of the skin,2020,Persons,30-34,374,19.6,,,,,30.0
+Projections,Melanoma of the skin,2020,Persons,35-39,515,28.0,,,,,35.0
+Projections,Melanoma of the skin,2021,Persons,15-19,32,2.2,,,,,15.0
+Projections,Melanoma of the skin,2021,Persons,20-24,101,6.2,,,,,20.0
+Projections,Melanoma of the skin,2021,Persons,25-29,183,10.0,,,,,25.0
+Projections,Melanoma of the skin,2021,Persons,30-34,373,19.6,,,,,30.0
+Projections,Melanoma of the skin,2021,Persons,35-39,520,27.8,,,,,35.0
+Projections,Melanoma of the skin,2022,Persons,15-19,33,2.2,,,,,15.0
+Projections,Melanoma of the skin,2022,Persons,20-24,103,6.3,,,,,20.0
+Projections,Melanoma of the skin,2022,Persons,25-29,177,9.7,,,,,25.0
+Projections,Melanoma of the skin,2022,Persons,30-34,377,19.7,,,,,30.0
+Projections,Melanoma of the skin,2022,Persons,35-39,525,27.7,,,,,35.0
+Projections,Melanoma of the skin,2023,Persons,15-19,36,2.3,,,,,15.0
+Projections,Melanoma of the skin,2023,Persons,20-24,103,6.3,,,,,20.0
+Projections,Melanoma of the skin,2023,Persons,25-29,169,9.3,,,,,25.0
+Projections,Melanoma of the skin,2023,Persons,30-34,379,19.7,,,,,30.0
+Projections,Melanoma of the skin,2023,Persons,35-39,528,27.6,,,,,35.0
+Actual,Non-melanoma skin cancer (rare types),2001,Females,15-19,0,0.0,,,,,15.0
+Actual,Non-melanoma skin cancer (rare types),2001,Females,20-24,4,0.6,,,,,20.0
+Actual,Non-melanoma skin cancer (rare types),2001,Females,25-29,1,0.1,,,,,25.0
+Actual,Non-melanoma skin cancer (rare types),2001,Females,30-34,2,0.3,,,,,30.0
+Actual,Non-melanoma skin cancer (rare types),2001,Females,35-39,2,0.3,,,,,35.0
+Actual,Non-melanoma skin cancer (rare types),2002,Females,15-19,0,0.0,,,,,15.0
+Actual,Non-melanoma skin cancer (rare types),2002,Females,20-24,1,0.2,,,,,20.0
+Actual,Non-melanoma skin cancer (rare types),2002,Females,25-29,2,0.3,,,,,25.0
+Actual,Non-melanoma skin cancer (rare types),2002,Females,30-34,1,0.1,,,,,30.0
+Actual,Non-melanoma skin cancer (rare types),2002,Females,35-39,0,0.0,,,,,35.0
+Actual,Non-melanoma skin cancer (rare types),2003,Females,15-19,0,0.0,,,,,15.0
+Actual,Non-melanoma skin cancer (rare types),2003,Females,20-24,2,0.3,,,,,20.0
+Actual,Non-melanoma skin cancer (rare types),2003,Females,25-29,1,0.1,,,,,25.0
+Actual,Non-melanoma skin cancer (rare types),2003,Females,30-34,3,0.4,,,,,30.0
+Actual,Non-melanoma skin cancer (rare types),2003,Females,35-39,2,0.3,,,,,35.0
+Actual,Non-melanoma skin cancer (rare types),2004,Females,15-19,0,0.0,,,,,15.0
+Actual,Non-melanoma skin cancer (rare types),2004,Females,20-24,0,0.0,,,,,20.0
+Actual,Non-melanoma skin cancer (rare types),2004,Females,25-29,1,0.1,,,,,25.0
+Actual,Non-melanoma skin cancer (rare types),2004,Females,30-34,2,0.3,,,,,30.0
+Actual,Non-melanoma skin cancer (rare types),2004,Females,35-39,2,0.3,,,,,35.0
+Actual,Non-melanoma skin cancer (rare types),2005,Females,15-19,1,0.1,,,,,15.0
+Actual,Non-melanoma skin cancer (rare types),2005,Females,20-24,1,0.1,,,,,20.0
+Actual,Non-melanoma skin cancer (rare types),2005,Females,25-29,2,0.3,,,,,25.0
+Actual,Non-melanoma skin cancer (rare types),2005,Females,30-34,1,0.1,,,,,30.0
+Actual,Non-melanoma skin cancer (rare types),2005,Females,35-39,5,0.7,,,,,35.0
+Actual,Non-melanoma skin cancer (rare types),2006,Females,15-19,0,0.0,,,,,15.0
+Actual,Non-melanoma skin cancer (rare types),2006,Females,20-24,1,0.1,,,,,20.0
+Actual,Non-melanoma skin cancer (rare types),2006,Females,25-29,2,0.3,,,,,25.0
+Actual,Non-melanoma skin cancer (rare types),2006,Females,30-34,2,0.3,,,,,30.0
+Actual,Non-melanoma skin cancer (rare types),2006,Females,35-39,4,0.5,,,,,35.0
+Actual,Non-melanoma skin cancer (rare types),2007,Females,15-19,0,0.0,,,,,15.0
+Actual,Non-melanoma skin cancer (rare types),2007,Females,20-24,0,0.0,,,,,20.0
+Actual,Non-melanoma skin cancer (rare types),2007,Females,25-29,2,0.3,,,,,25.0
+Actual,Non-melanoma skin cancer (rare types),2007,Females,30-34,1,0.1,,,,,30.0
+Actual,Non-melanoma skin cancer (rare types),2007,Females,35-39,4,0.5,,,,,35.0
+Actual,Non-melanoma skin cancer (rare types),2008,Females,15-19,0,0.0,,,,,15.0
+Actual,Non-melanoma skin cancer (rare types),2008,Females,20-24,1,0.1,,,,,20.0
+Actual,Non-melanoma skin cancer (rare types),2008,Females,25-29,0,0.0,,,,,25.0
+Actual,Non-melanoma skin cancer (rare types),2008,Females,30-34,1,0.1,,,,,30.0
+Actual,Non-melanoma skin cancer (rare types),2008,Females,35-39,4,0.5,,,,,35.0
+Actual,Non-melanoma skin cancer (rare types),2009,Females,15-19,0,0.0,,,,,15.0
+Actual,Non-melanoma skin cancer (rare types),2009,Females,20-24,1,0.1,,,,,20.0
+Actual,Non-melanoma skin cancer (rare types),2009,Females,25-29,1,0.1,,,,,25.0
+Actual,Non-melanoma skin cancer (rare types),2009,Females,30-34,3,0.4,,,,,30.0
+Actual,Non-melanoma skin cancer (rare types),2009,Females,35-39,4,0.5,,,,,35.0
+Actual,Non-melanoma skin cancer (rare types),2010,Females,15-19,1,0.1,,,,,15.0
+Actual,Non-melanoma skin cancer (rare types),2010,Females,20-24,1,0.1,,,,,20.0
+Actual,Non-melanoma skin cancer (rare types),2010,Females,25-29,3,0.4,,,,,25.0
+Actual,Non-melanoma skin cancer (rare types),2010,Females,30-34,2,0.3,,,,,30.0
+Actual,Non-melanoma skin cancer (rare types),2010,Females,35-39,4,0.5,,,,,35.0
+Actual,Non-melanoma skin cancer (rare types),2011,Females,15-19,0,0.0,,,,,15.0
+Actual,Non-melanoma skin cancer (rare types),2011,Females,20-24,0,0.0,,,,,20.0
+Actual,Non-melanoma skin cancer (rare types),2011,Females,25-29,0,0.0,,,,,25.0
+Actual,Non-melanoma skin cancer (rare types),2011,Females,30-34,2,0.3,,,,,30.0
+Actual,Non-melanoma skin cancer (rare types),2011,Females,35-39,1,0.1,,,,,35.0
+Actual,Non-melanoma skin cancer (rare types),2012,Females,15-19,0,0.0,,,,,15.0
+Actual,Non-melanoma skin cancer (rare types),2012,Females,20-24,1,0.1,,,,,20.0
+Actual,Non-melanoma skin cancer (rare types),2012,Females,25-29,1,0.1,,,,,25.0
+Actual,Non-melanoma skin cancer (rare types),2012,Females,30-34,0,0.0,,,,,30.0
+Actual,Non-melanoma skin cancer (rare types),2012,Females,35-39,1,0.1,,,,,35.0
+Actual,Non-melanoma skin cancer (rare types),2013,Females,15-19,0,0.0,,,,,15.0
+Actual,Non-melanoma skin cancer (rare types),2013,Females,20-24,1,0.1,,,,,20.0
+Actual,Non-melanoma skin cancer (rare types),2013,Females,25-29,0,0.0,,,,,25.0
+Actual,Non-melanoma skin cancer (rare types),2013,Females,30-34,1,0.1,,,,,30.0
+Actual,Non-melanoma skin cancer (rare types),2013,Females,35-39,3,0.4,,,,,35.0
+Actual,Non-melanoma skin cancer (rare types),2014,Females,15-19,1,0.1,,,,,15.0
+Actual,Non-melanoma skin cancer (rare types),2014,Females,20-24,3,0.4,,,,,20.0
+Actual,Non-melanoma skin cancer (rare types),2014,Females,25-29,2,0.2,,,,,25.0
+Actual,Non-melanoma skin cancer (rare types),2014,Females,30-34,2,0.2,,,,,30.0
+Actual,Non-melanoma skin cancer (rare types),2014,Females,35-39,5,0.6,,,,,35.0
+Actual,Non-melanoma skin cancer (rare types),2015,Females,15-19,0,0.0,,,,,15.0
+Actual,Non-melanoma skin cancer (rare types),2015,Females,20-24,1,0.1,,,,,20.0
+Actual,Non-melanoma skin cancer (rare types),2015,Females,25-29,0,0.0,,,,,25.0
+Actual,Non-melanoma skin cancer (rare types),2015,Females,30-34,2,0.2,,,,,30.0
+Actual,Non-melanoma skin cancer (rare types),2015,Females,35-39,1,0.1,,,,,35.0
+Actual,Non-melanoma skin cancer (rare types),2016,Females,15-19,0,0.0,,,,,15.0
+Actual,Non-melanoma skin cancer (rare types),2016,Females,20-24,2,0.2,,,,,20.0
+Actual,Non-melanoma skin cancer (rare types),2016,Females,25-29,4,0.4,,,,,25.0
+Actual,Non-melanoma skin cancer (rare types),2016,Females,30-34,4,0.4,,,,,30.0
+Actual,Non-melanoma skin cancer (rare types),2016,Females,35-39,2,0.2,,,,,35.0
+Actual,Non-melanoma skin cancer (rare types),2017,Females,15-19,0,0.0,,,,,15.0
+Actual,Non-melanoma skin cancer (rare types),2017,Females,20-24,1,0.1,,,,,20.0
+Actual,Non-melanoma skin cancer (rare types),2017,Females,25-29,0,0.0,,,,,25.0
+Actual,Non-melanoma skin cancer (rare types),2017,Females,30-34,4,0.4,,,,,30.0
+Actual,Non-melanoma skin cancer (rare types),2017,Females,35-39,3,0.4,,,,,35.0
+Actual,Non-melanoma skin cancer (rare types),2018,Females,15-19,1,0.1,,,,,15.0
+Actual,Non-melanoma skin cancer (rare types),2018,Females,20-24,1,0.1,,,,,20.0
+Actual,Non-melanoma skin cancer (rare types),2018,Females,25-29,1,0.1,,,,,25.0
+Actual,Non-melanoma skin cancer (rare types),2018,Females,30-34,3,0.3,,,,,30.0
+Actual,Non-melanoma skin cancer (rare types),2018,Females,35-39,2,0.2,,,,,35.0
+Actual,Non-melanoma skin cancer (rare types),2019,Females,15-19,1,0.1,,,,,15.0
+Actual,Non-melanoma skin cancer (rare types),2019,Females,20-24,1,0.1,,,,,20.0
+Actual,Non-melanoma skin cancer (rare types),2019,Females,25-29,4,0.4,,,,,25.0
+Actual,Non-melanoma skin cancer (rare types),2019,Females,30-34,2,0.2,,,,,30.0
+Actual,Non-melanoma skin cancer (rare types),2019,Females,35-39,1,0.1,,,,,35.0
+Projections,Non-melanoma skin cancer (rare types),2020,Females,15-19,0,0.0,,,,,15.0
+Projections,Non-melanoma skin cancer (rare types),2020,Females,20-24,1,0.1,,,,,20.0
+Projections,Non-melanoma skin cancer (rare types),2020,Females,25-29,1,0.1,,,,,25.0
+Projections,Non-melanoma skin cancer (rare types),2020,Females,30-34,3,0.3,,,,,30.0
+Projections,Non-melanoma skin cancer (rare types),2020,Females,35-39,3,0.3,,,,,35.0
+Projections,Non-melanoma skin cancer (rare types),2021,Females,15-19,0,0.0,,,,,15.0
+Projections,Non-melanoma skin cancer (rare types),2021,Females,20-24,1,0.1,,,,,20.0
+Projections,Non-melanoma skin cancer (rare types),2021,Females,25-29,1,0.1,,,,,25.0
+Projections,Non-melanoma skin cancer (rare types),2021,Females,30-34,3,0.3,,,,,30.0
+Projections,Non-melanoma skin cancer (rare types),2021,Females,35-39,3,0.3,,,,,35.0
+Projections,Non-melanoma skin cancer (rare types),2022,Females,15-19,1,0.1,,,,,15.0
+Projections,Non-melanoma skin cancer (rare types),2022,Females,20-24,2,0.3,,,,,20.0
+Projections,Non-melanoma skin cancer (rare types),2022,Females,25-29,3,0.3,,,,,25.0
+Projections,Non-melanoma skin cancer (rare types),2022,Females,30-34,3,0.3,,,,,30.0
+Projections,Non-melanoma skin cancer (rare types),2022,Females,35-39,3,0.3,,,,,35.0
+Projections,Non-melanoma skin cancer (rare types),2023,Females,15-19,1,0.1,,,,,15.0
+Projections,Non-melanoma skin cancer (rare types),2023,Females,20-24,2,0.3,,,,,20.0
+Projections,Non-melanoma skin cancer (rare types),2023,Females,25-29,4,0.4,,,,,25.0
+Projections,Non-melanoma skin cancer (rare types),2023,Females,30-34,3,0.3,,,,,30.0
+Projections,Non-melanoma skin cancer (rare types),2023,Females,35-39,3,0.3,,,,,35.0
+Actual,Non-melanoma skin cancer (rare types),2001,Males,15-19,2,0.3,,,,,15.0
+Actual,Non-melanoma skin cancer (rare types),2001,Males,20-24,0,0.0,,,,,20.0
+Actual,Non-melanoma skin cancer (rare types),2001,Males,25-29,1,0.1,,,,,25.0
+Actual,Non-melanoma skin cancer (rare types),2001,Males,30-34,1,0.1,,,,,30.0
+Actual,Non-melanoma skin cancer (rare types),2001,Males,35-39,2,0.3,,,,,35.0
+Actual,Non-melanoma skin cancer (rare types),2002,Males,15-19,0,0.0,,,,,15.0
+Actual,Non-melanoma skin cancer (rare types),2002,Males,20-24,1,0.1,,,,,20.0
+Actual,Non-melanoma skin cancer (rare types),2002,Males,25-29,4,0.6,,,,,25.0
+Actual,Non-melanoma skin cancer (rare types),2002,Males,30-34,1,0.1,,,,,30.0
+Actual,Non-melanoma skin cancer (rare types),2002,Males,35-39,4,0.5,,,,,35.0
+Actual,Non-melanoma skin cancer (rare types),2003,Males,15-19,2,0.3,,,,,15.0
+Actual,Non-melanoma skin cancer (rare types),2003,Males,20-24,0,0.0,,,,,20.0
+Actual,Non-melanoma skin cancer (rare types),2003,Males,25-29,1,0.1,,,,,25.0
+Actual,Non-melanoma skin cancer (rare types),2003,Males,30-34,1,0.1,,,,,30.0
+Actual,Non-melanoma skin cancer (rare types),2003,Males,35-39,6,0.8,,,,,35.0
+Actual,Non-melanoma skin cancer (rare types),2004,Males,15-19,0,0.0,,,,,15.0
+Actual,Non-melanoma skin cancer (rare types),2004,Males,20-24,2,0.3,,,,,20.0
+Actual,Non-melanoma skin cancer (rare types),2004,Males,25-29,1,0.1,,,,,25.0
+Actual,Non-melanoma skin cancer (rare types),2004,Males,30-34,3,0.4,,,,,30.0
+Actual,Non-melanoma skin cancer (rare types),2004,Males,35-39,8,1.1,,,,,35.0
+Actual,Non-melanoma skin cancer (rare types),2005,Males,15-19,0,0.0,,,,,15.0
+Actual,Non-melanoma skin cancer (rare types),2005,Males,20-24,0,0.0,,,,,20.0
+Actual,Non-melanoma skin cancer (rare types),2005,Males,25-29,1,0.1,,,,,25.0
+Actual,Non-melanoma skin cancer (rare types),2005,Males,30-34,1,0.1,,,,,30.0
+Actual,Non-melanoma skin cancer (rare types),2005,Males,35-39,3,0.4,,,,,35.0
+Actual,Non-melanoma skin cancer (rare types),2006,Males,15-19,2,0.3,,,,,15.0
+Actual,Non-melanoma skin cancer (rare types),2006,Males,20-24,1,0.1,,,,,20.0
+Actual,Non-melanoma skin cancer (rare types),2006,Males,25-29,1,0.1,,,,,25.0
+Actual,Non-melanoma skin cancer (rare types),2006,Males,30-34,2,0.3,,,,,30.0
+Actual,Non-melanoma skin cancer (rare types),2006,Males,35-39,3,0.4,,,,,35.0
+Actual,Non-melanoma skin cancer (rare types),2007,Males,15-19,0,0.0,,,,,15.0
+Actual,Non-melanoma skin cancer (rare types),2007,Males,20-24,1,0.1,,,,,20.0
+Actual,Non-melanoma skin cancer (rare types),2007,Males,25-29,2,0.3,,,,,25.0
+Actual,Non-melanoma skin cancer (rare types),2007,Males,30-34,1,0.1,,,,,30.0
+Actual,Non-melanoma skin cancer (rare types),2007,Males,35-39,3,0.4,,,,,35.0
+Actual,Non-melanoma skin cancer (rare types),2008,Males,15-19,0,0.0,,,,,15.0
+Actual,Non-melanoma skin cancer (rare types),2008,Males,20-24,0,0.0,,,,,20.0
+Actual,Non-melanoma skin cancer (rare types),2008,Males,25-29,2,0.3,,,,,25.0
+Actual,Non-melanoma skin cancer (rare types),2008,Males,30-34,4,0.5,,,,,30.0
+Actual,Non-melanoma skin cancer (rare types),2008,Males,35-39,6,0.8,,,,,35.0
+Actual,Non-melanoma skin cancer (rare types),2009,Males,15-19,0,0.0,,,,,15.0
+Actual,Non-melanoma skin cancer (rare types),2009,Males,20-24,0,0.0,,,,,20.0
+Actual,Non-melanoma skin cancer (rare types),2009,Males,25-29,2,0.2,,,,,25.0
+Actual,Non-melanoma skin cancer (rare types),2009,Males,30-34,2,0.3,,,,,30.0
+Actual,Non-melanoma skin cancer (rare types),2009,Males,35-39,2,0.3,,,,,35.0
+Actual,Non-melanoma skin cancer (rare types),2010,Males,15-19,1,0.1,,,,,15.0
+Actual,Non-melanoma skin cancer (rare types),2010,Males,20-24,1,0.1,,,,,20.0
+Actual,Non-melanoma skin cancer (rare types),2010,Males,25-29,0,0.0,,,,,25.0
+Actual,Non-melanoma skin cancer (rare types),2010,Males,30-34,2,0.3,,,,,30.0
+Actual,Non-melanoma skin cancer (rare types),2010,Males,35-39,9,1.1,,,,,35.0
+Actual,Non-melanoma skin cancer (rare types),2011,Males,15-19,0,0.0,,,,,15.0
+Actual,Non-melanoma skin cancer (rare types),2011,Males,20-24,1,0.1,,,,,20.0
+Actual,Non-melanoma skin cancer (rare types),2011,Males,25-29,2,0.2,,,,,25.0
+Actual,Non-melanoma skin cancer (rare types),2011,Males,30-34,0,0.0,,,,,30.0
+Actual,Non-melanoma skin cancer (rare types),2011,Males,35-39,4,0.5,,,,,35.0
+Actual,Non-melanoma skin cancer (rare types),2012,Males,15-19,0,0.0,,,,,15.0
+Actual,Non-melanoma skin cancer (rare types),2012,Males,20-24,3,0.4,,,,,20.0
+Actual,Non-melanoma skin cancer (rare types),2012,Males,25-29,1,0.1,,,,,25.0
+Actual,Non-melanoma skin cancer (rare types),2012,Males,30-34,1,0.1,,,,,30.0
+Actual,Non-melanoma skin cancer (rare types),2012,Males,35-39,2,0.3,,,,,35.0
+Actual,Non-melanoma skin cancer (rare types),2013,Males,15-19,0,0.0,,,,,15.0
+Actual,Non-melanoma skin cancer (rare types),2013,Males,20-24,0,0.0,,,,,20.0
+Actual,Non-melanoma skin cancer (rare types),2013,Males,25-29,2,0.2,,,,,25.0
+Actual,Non-melanoma skin cancer (rare types),2013,Males,30-34,2,0.2,,,,,30.0
+Actual,Non-melanoma skin cancer (rare types),2013,Males,35-39,9,1.2,,,,,35.0
+Actual,Non-melanoma skin cancer (rare types),2014,Males,15-19,0,0.0,,,,,15.0
+Actual,Non-melanoma skin cancer (rare types),2014,Males,20-24,1,0.1,,,,,20.0
+Actual,Non-melanoma skin cancer (rare types),2014,Males,25-29,1,0.1,,,,,25.0
+Actual,Non-melanoma skin cancer (rare types),2014,Males,30-34,1,0.1,,,,,30.0
+Actual,Non-melanoma skin cancer (rare types),2014,Males,35-39,6,0.8,,,,,35.0
+Actual,Non-melanoma skin cancer (rare types),2015,Males,15-19,0,0.0,,,,,15.0
+Actual,Non-melanoma skin cancer (rare types),2015,Males,20-24,2,0.2,,,,,20.0
+Actual,Non-melanoma skin cancer (rare types),2015,Males,25-29,3,0.3,,,,,25.0
+Actual,Non-melanoma skin cancer (rare types),2015,Males,30-34,4,0.5,,,,,30.0
+Actual,Non-melanoma skin cancer (rare types),2015,Males,35-39,4,0.5,,,,,35.0
+Actual,Non-melanoma skin cancer (rare types),2016,Males,15-19,0,0.0,,,,,15.0
+Actual,Non-melanoma skin cancer (rare types),2016,Males,20-24,0,0.0,,,,,20.0
+Actual,Non-melanoma skin cancer (rare types),2016,Males,25-29,2,0.2,,,,,25.0
+Actual,Non-melanoma skin cancer (rare types),2016,Males,30-34,0,0.0,,,,,30.0
+Actual,Non-melanoma skin cancer (rare types),2016,Males,35-39,3,0.4,,,,,35.0
+Actual,Non-melanoma skin cancer (rare types),2017,Males,15-19,0,0.0,,,,,15.0
+Actual,Non-melanoma skin cancer (rare types),2017,Males,20-24,2,0.2,,,,,20.0
+Actual,Non-melanoma skin cancer (rare types),2017,Males,25-29,1,0.1,,,,,25.0
+Actual,Non-melanoma skin cancer (rare types),2017,Males,30-34,3,0.3,,,,,30.0
+Actual,Non-melanoma skin cancer (rare types),2017,Males,35-39,3,0.4,,,,,35.0
+Actual,Non-melanoma skin cancer (rare types),2018,Males,15-19,0,0.0,,,,,15.0
+Actual,Non-melanoma skin cancer (rare types),2018,Males,20-24,2,0.2,,,,,20.0
+Actual,Non-melanoma skin cancer (rare types),2018,Males,25-29,1,0.1,,,,,25.0
+Actual,Non-melanoma skin cancer (rare types),2018,Males,30-34,3,0.3,,,,,30.0
+Actual,Non-melanoma skin cancer (rare types),2018,Males,35-39,8,0.9,,,,,35.0
+Actual,Non-melanoma skin cancer (rare types),2019,Males,15-19,1,0.1,,,,,15.0
+Actual,Non-melanoma skin cancer (rare types),2019,Males,20-24,3,0.3,,,,,20.0
+Actual,Non-melanoma skin cancer (rare types),2019,Males,25-29,4,0.4,,,,,25.0
+Actual,Non-melanoma skin cancer (rare types),2019,Males,30-34,2,0.2,,,,,30.0
+Actual,Non-melanoma skin cancer (rare types),2019,Males,35-39,1,0.1,,,,,35.0
+Projections,Non-melanoma skin cancer (rare types),2020,Males,15-19,0,0.0,,,,,15.0
+Projections,Non-melanoma skin cancer (rare types),2020,Males,20-24,3,0.3,,,,,20.0
+Projections,Non-melanoma skin cancer (rare types),2020,Males,25-29,2,0.2,,,,,25.0
+Projections,Non-melanoma skin cancer (rare types),2020,Males,30-34,2,0.2,,,,,30.0
+Projections,Non-melanoma skin cancer (rare types),2020,Males,35-39,2,0.2,,,,,35.0
+Projections,Non-melanoma skin cancer (rare types),2021,Males,15-19,0,0.0,,,,,15.0
+Projections,Non-melanoma skin cancer (rare types),2021,Males,20-24,3,0.4,,,,,20.0
+Projections,Non-melanoma skin cancer (rare types),2021,Males,25-29,2,0.2,,,,,25.0
+Projections,Non-melanoma skin cancer (rare types),2021,Males,30-34,2,0.2,,,,,30.0
+Projections,Non-melanoma skin cancer (rare types),2021,Males,35-39,2,0.2,,,,,35.0
+Projections,Non-melanoma skin cancer (rare types),2022,Males,15-19,1,0.1,,,,,15.0
+Projections,Non-melanoma skin cancer (rare types),2022,Males,20-24,3,0.4,,,,,20.0
+Projections,Non-melanoma skin cancer (rare types),2022,Males,25-29,2,0.2,,,,,25.0
+Projections,Non-melanoma skin cancer (rare types),2022,Males,30-34,3,0.3,,,,,30.0
+Projections,Non-melanoma skin cancer (rare types),2022,Males,35-39,2,0.2,,,,,35.0
+Projections,Non-melanoma skin cancer (rare types),2023,Males,15-19,1,0.1,,,,,15.0
+Projections,Non-melanoma skin cancer (rare types),2023,Males,20-24,3,0.4,,,,,20.0
+Projections,Non-melanoma skin cancer (rare types),2023,Males,25-29,4,0.4,,,,,25.0
+Projections,Non-melanoma skin cancer (rare types),2023,Males,30-34,3,0.3,,,,,30.0
+Projections,Non-melanoma skin cancer (rare types),2023,Males,35-39,3,0.3,,,,,35.0
+Actual,Non-melanoma skin cancer (rare types),2001,Persons,15-19,2,0.1,,,,,15.0
+Actual,Non-melanoma skin cancer (rare types),2001,Persons,20-24,4,0.3,,,,,20.0
+Actual,Non-melanoma skin cancer (rare types),2001,Persons,25-29,2,0.1,,,,,25.0
+Actual,Non-melanoma skin cancer (rare types),2001,Persons,30-34,3,0.2,,,,,30.0
+Actual,Non-melanoma skin cancer (rare types),2001,Persons,35-39,4,0.3,,,,,35.0
+Actual,Non-melanoma skin cancer (rare types),2002,Persons,15-19,0,0.0,,,,,15.0
+Actual,Non-melanoma skin cancer (rare types),2002,Persons,20-24,2,0.2,,,,,20.0
+Actual,Non-melanoma skin cancer (rare types),2002,Persons,25-29,6,0.4,,,,,25.0
+Actual,Non-melanoma skin cancer (rare types),2002,Persons,30-34,2,0.1,,,,,30.0
+Actual,Non-melanoma skin cancer (rare types),2002,Persons,35-39,4,0.3,,,,,35.0
+Actual,Non-melanoma skin cancer (rare types),2003,Persons,15-19,2,0.1,,,,,15.0
+Actual,Non-melanoma skin cancer (rare types),2003,Persons,20-24,2,0.1,,,,,20.0
+Actual,Non-melanoma skin cancer (rare types),2003,Persons,25-29,2,0.1,,,,,25.0
+Actual,Non-melanoma skin cancer (rare types),2003,Persons,30-34,4,0.3,,,,,30.0
+Actual,Non-melanoma skin cancer (rare types),2003,Persons,35-39,8,0.6,,,,,35.0
+Actual,Non-melanoma skin cancer (rare types),2004,Persons,15-19,0,0.0,,,,,15.0
+Actual,Non-melanoma skin cancer (rare types),2004,Persons,20-24,2,0.1,,,,,20.0
+Actual,Non-melanoma skin cancer (rare types),2004,Persons,25-29,2,0.1,,,,,25.0
+Actual,Non-melanoma skin cancer (rare types),2004,Persons,30-34,5,0.3,,,,,30.0
+Actual,Non-melanoma skin cancer (rare types),2004,Persons,35-39,10,0.7,,,,,35.0
+Actual,Non-melanoma skin cancer (rare types),2005,Persons,15-19,1,0.1,,,,,15.0
+Actual,Non-melanoma skin cancer (rare types),2005,Persons,20-24,1,0.1,,,,,20.0
+Actual,Non-melanoma skin cancer (rare types),2005,Persons,25-29,3,0.2,,,,,25.0
+Actual,Non-melanoma skin cancer (rare types),2005,Persons,30-34,2,0.1,,,,,30.0
+Actual,Non-melanoma skin cancer (rare types),2005,Persons,35-39,8,0.5,,,,,35.0
+Actual,Non-melanoma skin cancer (rare types),2006,Persons,15-19,2,0.1,,,,,15.0
+Actual,Non-melanoma skin cancer (rare types),2006,Persons,20-24,2,0.1,,,,,20.0
+Actual,Non-melanoma skin cancer (rare types),2006,Persons,25-29,3,0.2,,,,,25.0
+Actual,Non-melanoma skin cancer (rare types),2006,Persons,30-34,4,0.3,,,,,30.0
+Actual,Non-melanoma skin cancer (rare types),2006,Persons,35-39,7,0.5,,,,,35.0
+Actual,Non-melanoma skin cancer (rare types),2007,Persons,15-19,0,0.0,,,,,15.0
+Actual,Non-melanoma skin cancer (rare types),2007,Persons,20-24,1,0.1,,,,,20.0
+Actual,Non-melanoma skin cancer (rare types),2007,Persons,25-29,4,0.3,,,,,25.0
+Actual,Non-melanoma skin cancer (rare types),2007,Persons,30-34,2,0.1,,,,,30.0
+Actual,Non-melanoma skin cancer (rare types),2007,Persons,35-39,7,0.4,,,,,35.0
+Actual,Non-melanoma skin cancer (rare types),2008,Persons,15-19,0,0.0,,,,,15.0
+Actual,Non-melanoma skin cancer (rare types),2008,Persons,20-24,1,0.1,,,,,20.0
+Actual,Non-melanoma skin cancer (rare types),2008,Persons,25-29,2,0.1,,,,,25.0
+Actual,Non-melanoma skin cancer (rare types),2008,Persons,30-34,5,0.3,,,,,30.0
+Actual,Non-melanoma skin cancer (rare types),2008,Persons,35-39,10,0.6,,,,,35.0
+Actual,Non-melanoma skin cancer (rare types),2009,Persons,15-19,0,0.0,,,,,15.0
+Actual,Non-melanoma skin cancer (rare types),2009,Persons,20-24,1,0.1,,,,,20.0
+Actual,Non-melanoma skin cancer (rare types),2009,Persons,25-29,3,0.2,,,,,25.0
+Actual,Non-melanoma skin cancer (rare types),2009,Persons,30-34,5,0.3,,,,,30.0
+Actual,Non-melanoma skin cancer (rare types),2009,Persons,35-39,6,0.4,,,,,35.0
+Actual,Non-melanoma skin cancer (rare types),2010,Persons,15-19,2,0.1,,,,,15.0
+Actual,Non-melanoma skin cancer (rare types),2010,Persons,20-24,2,0.1,,,,,20.0
+Actual,Non-melanoma skin cancer (rare types),2010,Persons,25-29,3,0.2,,,,,25.0
+Actual,Non-melanoma skin cancer (rare types),2010,Persons,30-34,4,0.3,,,,,30.0
+Actual,Non-melanoma skin cancer (rare types),2010,Persons,35-39,13,0.8,,,,,35.0
+Actual,Non-melanoma skin cancer (rare types),2011,Persons,15-19,0,0.0,,,,,15.0
+Actual,Non-melanoma skin cancer (rare types),2011,Persons,20-24,1,0.1,,,,,20.0
+Actual,Non-melanoma skin cancer (rare types),2011,Persons,25-29,2,0.1,,,,,25.0
+Actual,Non-melanoma skin cancer (rare types),2011,Persons,30-34,2,0.1,,,,,30.0
+Actual,Non-melanoma skin cancer (rare types),2011,Persons,35-39,5,0.3,,,,,35.0
+Actual,Non-melanoma skin cancer (rare types),2012,Persons,15-19,0,0.0,,,,,15.0
+Actual,Non-melanoma skin cancer (rare types),2012,Persons,20-24,4,0.2,,,,,20.0
+Actual,Non-melanoma skin cancer (rare types),2012,Persons,25-29,2,0.1,,,,,25.0
+Actual,Non-melanoma skin cancer (rare types),2012,Persons,30-34,1,0.1,,,,,30.0
+Actual,Non-melanoma skin cancer (rare types),2012,Persons,35-39,3,0.2,,,,,35.0
+Actual,Non-melanoma skin cancer (rare types),2013,Persons,15-19,0,0.0,,,,,15.0
+Actual,Non-melanoma skin cancer (rare types),2013,Persons,20-24,1,0.1,,,,,20.0
+Actual,Non-melanoma skin cancer (rare types),2013,Persons,25-29,2,0.1,,,,,25.0
+Actual,Non-melanoma skin cancer (rare types),2013,Persons,30-34,3,0.2,,,,,30.0
+Actual,Non-melanoma skin cancer (rare types),2013,Persons,35-39,12,0.8,,,,,35.0
+Actual,Non-melanoma skin cancer (rare types),2014,Persons,15-19,1,0.1,,,,,15.0
+Actual,Non-melanoma skin cancer (rare types),2014,Persons,20-24,4,0.2,,,,,20.0
+Actual,Non-melanoma skin cancer (rare types),2014,Persons,25-29,3,0.2,,,,,25.0
+Actual,Non-melanoma skin cancer (rare types),2014,Persons,30-34,3,0.2,,,,,30.0
+Actual,Non-melanoma skin cancer (rare types),2014,Persons,35-39,11,0.7,,,,,35.0
+Actual,Non-melanoma skin cancer (rare types),2015,Persons,15-19,0,0.0,,,,,15.0
+Actual,Non-melanoma skin cancer (rare types),2015,Persons,20-24,3,0.2,,,,,20.0
+Actual,Non-melanoma skin cancer (rare types),2015,Persons,25-29,3,0.2,,,,,25.0
+Actual,Non-melanoma skin cancer (rare types),2015,Persons,30-34,6,0.3,,,,,30.0
+Actual,Non-melanoma skin cancer (rare types),2015,Persons,35-39,5,0.3,,,,,35.0
+Actual,Non-melanoma skin cancer (rare types),2016,Persons,15-19,0,0.0,,,,,15.0
+Actual,Non-melanoma skin cancer (rare types),2016,Persons,20-24,2,0.1,,,,,20.0
+Actual,Non-melanoma skin cancer (rare types),2016,Persons,25-29,6,0.3,,,,,25.0
+Actual,Non-melanoma skin cancer (rare types),2016,Persons,30-34,4,0.2,,,,,30.0
+Actual,Non-melanoma skin cancer (rare types),2016,Persons,35-39,5,0.3,,,,,35.0
+Actual,Non-melanoma skin cancer (rare types),2017,Persons,15-19,0,0.0,,,,,15.0
+Actual,Non-melanoma skin cancer (rare types),2017,Persons,20-24,3,0.2,,,,,20.0
+Actual,Non-melanoma skin cancer (rare types),2017,Persons,25-29,1,0.1,,,,,25.0
+Actual,Non-melanoma skin cancer (rare types),2017,Persons,30-34,7,0.4,,,,,30.0
+Actual,Non-melanoma skin cancer (rare types),2017,Persons,35-39,6,0.4,,,,,35.0
+Actual,Non-melanoma skin cancer (rare types),2018,Persons,15-19,1,0.1,,,,,15.0
+Actual,Non-melanoma skin cancer (rare types),2018,Persons,20-24,3,0.2,,,,,20.0
+Actual,Non-melanoma skin cancer (rare types),2018,Persons,25-29,2,0.1,,,,,25.0
+Actual,Non-melanoma skin cancer (rare types),2018,Persons,30-34,6,0.3,,,,,30.0
+Actual,Non-melanoma skin cancer (rare types),2018,Persons,35-39,10,0.6,,,,,35.0
+Actual,Non-melanoma skin cancer (rare types),2019,Persons,15-19,2,0.1,,,,,15.0
+Actual,Non-melanoma skin cancer (rare types),2019,Persons,20-24,4,0.2,,,,,20.0
+Actual,Non-melanoma skin cancer (rare types),2019,Persons,25-29,8,0.4,,,,,25.0
+Actual,Non-melanoma skin cancer (rare types),2019,Persons,30-34,4,0.2,,,,,30.0
+Actual,Non-melanoma skin cancer (rare types),2019,Persons,35-39,2,0.1,,,,,35.0
+Projections,Non-melanoma skin cancer (rare types),2020,Persons,15-19,0,0.0,,,,,15.0
+Projections,Non-melanoma skin cancer (rare types),2020,Persons,20-24,4,0.2,,,,,20.0
+Projections,Non-melanoma skin cancer (rare types),2020,Persons,25-29,3,0.2,,,,,25.0
+Projections,Non-melanoma skin cancer (rare types),2020,Persons,30-34,5,0.3,,,,,30.0
+Projections,Non-melanoma skin cancer (rare types),2020,Persons,35-39,5,0.3,,,,,35.0
+Projections,Non-melanoma skin cancer (rare types),2021,Persons,15-19,0,0.0,,,,,15.0
+Projections,Non-melanoma skin cancer (rare types),2021,Persons,20-24,4,0.2,,,,,20.0
+Projections,Non-melanoma skin cancer (rare types),2021,Persons,25-29,3,0.2,,,,,25.0
+Projections,Non-melanoma skin cancer (rare types),2021,Persons,30-34,5,0.3,,,,,30.0
+Projections,Non-melanoma skin cancer (rare types),2021,Persons,35-39,5,0.3,,,,,35.0
+Projections,Non-melanoma skin cancer (rare types),2022,Persons,15-19,2,0.1,,,,,15.0
+Projections,Non-melanoma skin cancer (rare types),2022,Persons,20-24,5,0.3,,,,,20.0
+Projections,Non-melanoma skin cancer (rare types),2022,Persons,25-29,5,0.3,,,,,25.0
+Projections,Non-melanoma skin cancer (rare types),2022,Persons,30-34,6,0.3,,,,,30.0
+Projections,Non-melanoma skin cancer (rare types),2022,Persons,35-39,5,0.3,,,,,35.0
+Projections,Non-melanoma skin cancer (rare types),2023,Persons,15-19,2,0.1,,,,,15.0
+Projections,Non-melanoma skin cancer (rare types),2023,Persons,20-24,5,0.3,,,,,20.0
+Projections,Non-melanoma skin cancer (rare types),2023,Persons,25-29,8,0.4,,,,,25.0
+Projections,Non-melanoma skin cancer (rare types),2023,Persons,30-34,6,0.3,,,,,30.0
+Projections,Non-melanoma skin cancer (rare types),2023,Persons,35-39,6,0.3,,,,,35.0

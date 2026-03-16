@@ -1,0 +1,1 @@
+Developer note: Please change to the project directory first before running any commands.

@@ -1,0 +1,49 @@
+age_group,behavior,percentage,behavior_avg,age_rank_within_behavior,insight
+15–24 years,3+ measures used,39.4,54.2,6,Below behaviour average for this age.
+15–24 years,Broad-brim hat / flap cap,38.0,51.7,6,Below behaviour average for this age.
+15–24 years,Covered 3/4+ of arms,26.7,34.9,6,Below behaviour average for this age.
+15–24 years,Covered 3/4+ of legs,33.9,38.4,6,Below behaviour average for this age.
+15–24 years,None of these measures,7.7,4.8,1,Higher is worse (no protection used).
+15–24 years,Stayed in the shade,56.3,55.3,3,Above behaviour average for this age.
+15–24 years,Sunglasses,42.3,63.9,6,Below behaviour average for this age.
+15–24 years,Used SPF30+ sunscreen,47.1,49.3,5,Below behaviour average for this age.
+25–34 years,3+ measures used,54.2,54.2,5,Above behaviour average for this age.
+25–34 years,Broad-brim hat / flap cap,38.7,51.7,5,Below behaviour average for this age.
+25–34 years,Covered 3/4+ of arms,30.5,34.9,5,Below behaviour average for this age.
+25–34 years,Covered 3/4+ of legs,36.8,38.4,4,Below behaviour average for this age.
+25–34 years,None of these measures,5.7,4.8,2,Higher is worse (no protection used).
+25–34 years,Stayed in the shade,59.6,55.3,1,Above behaviour average for this age.
+25–34 years,Sunglasses,66.8,63.9,4,Above behaviour average for this age.
+25–34 years,Used SPF30+ sunscreen,55.3,49.3,2,Above behaviour average for this age.
+35–44 years,3+ measures used,54.9,54.2,4,Above behaviour average for this age.
+35–44 years,Broad-brim hat / flap cap,47.6,51.7,4,Below behaviour average for this age.
+35–44 years,Covered 3/4+ of arms,31.7,34.9,4,Below behaviour average for this age.
+35–44 years,Covered 3/4+ of legs,34.4,38.4,5,Below behaviour average for this age.
+35–44 years,None of these measures,3.5,4.8,5,Higher is worse (no protection used).
+35–44 years,Stayed in the shade,57.4,55.3,2,Above behaviour average for this age.
+35–44 years,Sunglasses,71.0,63.9,2,Above behaviour average for this age.
+35–44 years,Used SPF30+ sunscreen,56.7,49.3,1,Above behaviour average for this age.
+45–54 years,3+ measures used,61.6,54.2,1,Above behaviour average for this age.
+45–54 years,Broad-brim hat / flap cap,58.2,51.7,3,Above behaviour average for this age.
+45–54 years,Covered 3/4+ of arms,35.9,34.9,3,Above behaviour average for this age.
+45–54 years,Covered 3/4+ of legs,38.9,38.4,3,Above behaviour average for this age.
+45–54 years,None of these measures,2.9,4.8,6,Higher is worse (no protection used).
+45–54 years,Stayed in the shade,55.7,55.3,4,Above behaviour average for this age.
+45–54 years,Sunglasses,76.0,63.9,1,Above behaviour average for this age.
+45–54 years,Used SPF30+ sunscreen,49.8,49.3,3,Above behaviour average for this age.
+55–64 years,3+ measures used,57.9,54.2,2,Above behaviour average for this age.
+55–64 years,Broad-brim hat / flap cap,61.6,51.7,2,Above behaviour average for this age.
+55–64 years,Covered 3/4+ of arms,40.5,34.9,2,Above behaviour average for this age.
+55–64 years,Covered 3/4+ of legs,41.2,38.4,2,Above behaviour average for this age.
+55–64 years,None of these measures,4.1,4.8,4,Higher is worse (no protection used).
+55–64 years,Stayed in the shade,54.5,55.3,5,Below behaviour average for this age.
+55–64 years,Sunglasses,68.1,63.9,3,Above behaviour average for this age.
+55–64 years,Used SPF30+ sunscreen,48.3,49.3,4,Below behaviour average for this age.
+65 years and over,3+ measures used,57.4,54.2,3,Above behaviour average for this age.
+65 years and over,Broad-brim hat / flap cap,66.2,51.7,1,Above behaviour average for this age.
+65 years and over,Covered 3/4+ of arms,44.4,34.9,1,Above behaviour average for this age.
+65 years and over,Covered 3/4+ of legs,45.3,38.4,1,Above behaviour average for this age.
+65 years and over,None of these measures,4.8,4.8,3,Higher is worse (no protection used).
+65 years and over,Stayed in the shade,48.5,55.3,6,Below behaviour average for this age.
+65 years and over,Sunglasses,59.1,63.9,5,Below behaviour average for this age.
+65 years and over,Used SPF30+ sunscreen,38.4,49.3,6,Below behaviour average for this age.
