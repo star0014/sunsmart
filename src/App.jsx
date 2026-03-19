@@ -1273,12 +1273,7 @@ Stay sun smart! #SunSmart #UVAlert`);
                     latest release.
                   </p>
                   <div className="mt-4 flex flex-wrap gap-3">
-                    <Button className="rounded-xl bg-slate-900 hover:bg-slate-800">
-                      <Share2 className="mr-2 h-4 w-4" /> Share insight
-                    </Button>
-                    <Button variant="outline" className="rounded-xl bg-white">
-                      <ChevronRight className="mr-2 h-4 w-4" /> Why this matters
-                    </Button>
+
                   </div>
                 </CardContent>
               </Card>
