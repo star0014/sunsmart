@@ -1205,7 +1205,7 @@ Stay sun smart! #SunSmart #UVAlert`);
                 <CardHeader>
                   <CardTitle>Generational sun-safety snapshot</CardTitle>
                   <CardDescription>
-                    This compares tanning, sunburn, and sunscreen habits across age groups so the awareness feature tells a clearer story.
+                    Below you can see a graph comparing tanning, sunburn and sunscreen habits across age groups.
                   </CardDescription>
                 </CardHeader>
                 <CardContent>
