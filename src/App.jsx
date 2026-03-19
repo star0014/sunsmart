@@ -1255,7 +1255,7 @@ Stay sun smart! #SunSmart #UVAlert`);
                     ))}
                   </div>
                   <p className="mt-4 text-sm leading-6 text-slate-600">
-                    Gen Z shows the highest tanning and sunburn rates, while Millennials report the strongest regular sunscreen use. That contrast gives the awareness tab a stronger educational message.
+                    Gen Z shows the highest tanning and sunburn rates, while Millennials report the strongest regular sunscreen use.
                   </p>
                   <p className="mt-3 text-xs leading-5 text-slate-500">
                     Source:
