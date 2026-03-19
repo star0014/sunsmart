@@ -1017,8 +1017,7 @@ Stay sun smart! #SunSmart #UVAlert #SunProtection`;
                           alert("📸 Caption copied & image downloading! Open Instagram and paste the caption.");
                         });
                       }}
-                    >📸 Instagram</Button>
-                    <Button
+                    
                       className="rounded-xl bg-[#1877F2] text-white hover:bg-[#1665d8]"
                       onClick={() => {
                         const url = encodeURIComponent(window.location.href);
