@@ -17,16 +17,19 @@ export function useUVData(latitude, longitude, timezone) {
         const res = await fetch(url);
         const data = await res.json();
 
-        // data.timezone is the IANA timezone of the location (e.g. "Europe/Lisbon")
-        // Use it to find what the LOCAL hour is at the destination right now
         const locationTimezone = timezone || data.timezone || "UTC";
 
-        // Get the current local time string in the location's timezone
         const nowInLocation = new Date().toLocaleString("en-US", { timeZone: locationTimezone });
         const localHour = new Date(nowInLocation).getHours();
 
         const currentUV = data.hourly.uv_index[localHour];
-        setUvIndex(currentUV !== undefined ? Math.round(currentUV) : 0);
+
+        // Keep one decimal place instead of rounding to integer
+        const uvValue = currentUV !== undefined
+          ? Math.round(currentUV * 10) / 10
+          : 0;
+
+        setUvIndex(uvValue);
       } catch (err) {
         setError("Failed to fetch UV data");
       } finally {

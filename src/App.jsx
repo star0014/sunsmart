@@ -16,11 +16,6 @@ import {
   CloudSun,
   CheckCircle2,
   Sparkles,
-  LogOut,
-  Mail,
-  Lock,
-  UserPlus,
-  LogIn,
 } from "lucide-react";
 import {
   LineChart,
@@ -244,7 +239,7 @@ function getUvMeta(uv) {
 
 function StatPill({ icon: Icon, label, value }) {
   return (
-    <div className="rounded-2xl border border-white/60 bg-white/70 px-4 py-3 backdrop-blur min-w-[130px]">
+    <div className="rounded-2xl border border-slate-200 bg-white px-4 py-3 min-w-[130px]">
       <div className="flex items-center gap-1.5 text-slate-500">
         <Icon className="h-3.5 w-3.5 shrink-0" />
         <span className="text-xs">{label}</span>
@@ -252,19 +247,6 @@ function StatPill({ icon: Icon, label, value }) {
       <div className="mt-1 text-base font-semibold text-slate-900 leading-snug">{value}</div>
     </div>
   );
-}
-
-function buildUserId(email = "") {
-  return email.trim().toLowerCase().replace(/[^a-z0-9]+/g, "-").replace(/^-|-$/g, "") || "demo-user";
-}
-
-function buildDisplayName(email = "") {
-  const localPart = email.split("@")[0] || "SunSmart User";
-  return localPart
-    .split(/[._-]+/)
-    .filter(Boolean)
-    .map((part) => part.charAt(0).toUpperCase() + part.slice(1))
-    .join(" ") || "SunSmart User";
 }
 
 function getIntervalMs(intervalValue, intervalUnit) {
@@ -281,319 +263,22 @@ function formatClockTime(date) {
   });
 }
 
-function AuthScreen({ onLoginSuccess }) {
-  const [mode, setMode] = useState("login");
-  const [loginEmail, setLoginEmail] = useState("");
-  const [loginPassword, setLoginPassword] = useState("");
-
-  const [registerEmail, setRegisterEmail] = useState("");
-  const [registerPassword, setRegisterPassword] = useState("");
-  const [confirmPassword, setConfirmPassword] = useState("");
-
-  const [error, setError] = useState("");
-  const [success, setSuccess] = useState("");
-
-  const emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
-
-  const handleRegister = (e) => {
-    e.preventDefault();
-    setError("");
-    setSuccess("");
-
-    if (!registerEmail || !registerPassword || !confirmPassword) {
-      setError("Please fill in all registration fields.");
-      return;
-    }
-
-    if (!emailRegex.test(registerEmail)) {
-      setError("Please enter a valid email address.");
-      return;
-    }
-
-    if (registerPassword.length < 6) {
-      setError("Password must be at least 6 characters.");
-      return;
-    }
-
-    if (registerPassword !== confirmPassword) {
-      setError("Passwords do not match.");
-      return;
-    }
-
-    const existingUsers = JSON.parse(localStorage.getItem("sunsmart_users") || "[]");
-    const alreadyExists = existingUsers.find(
-      (user) => user.email.toLowerCase() === registerEmail.toLowerCase()
-    );
-
-    if (alreadyExists) {
-      setError("This email is already registered.");
-      return;
-    }
-
-    const newUser = {
-      email: registerEmail,
-      password: registerPassword,
-    };
-
-    existingUsers.push(newUser);
-    localStorage.setItem("sunsmart_users", JSON.stringify(existingUsers));
-    setSuccess("Registration successful. You can now log in.");
-    setRegisterEmail("");
-    setRegisterPassword("");
-    setConfirmPassword("");
-    setMode("login");
-  };
-
-  const handleLogin = (e) => {
-    e.preventDefault();
-    setError("");
-    setSuccess("");
-
-    if (!loginEmail || !loginPassword) {
-      setError("Please enter both email and password.");
-      return;
-    }
-
-    if (!emailRegex.test(loginEmail)) {
-      setError("Please enter a valid email address.");
-      return;
-    }
-
-    const existingUsers = JSON.parse(localStorage.getItem("sunsmart_users") || "[]");
-    const matchedUser = existingUsers.find(
-      (user) =>
-        user.email.toLowerCase() === loginEmail.toLowerCase() &&
-        user.password === loginPassword
-    );
-
-    if (!matchedUser) {
-      setError("Invalid email or password.");
-      return;
-    }
-
-    localStorage.setItem(
-      "sunsmart_current_user",
-      JSON.stringify({ email: matchedUser.email })
-    );
-    onLoginSuccess({ email: matchedUser.email });
-  };
-
-  const handleDemoLogin = () => {
-    const demoEmail = "student@monash.edu";
-    const demoPassword = "123456";
-
-    const existingUsers = JSON.parse(localStorage.getItem("sunsmart_users") || "[]");
-    const demoExists = existingUsers.find(
-      (user) => user.email.toLowerCase() === demoEmail.toLowerCase()
-    );
-
-    if (!demoExists) {
-      existingUsers.push({ email: demoEmail, password: demoPassword });
-      localStorage.setItem("sunsmart_users", JSON.stringify(existingUsers));
-    }
-
-    localStorage.setItem(
-      "sunsmart_current_user",
-      JSON.stringify({ email: demoEmail })
-    );
-    onLoginSuccess({ email: demoEmail });
-  };
-
-  return (
-    <div className="min-h-screen bg-[radial-gradient(circle_at_top,#eff6ff_0%,#f8fafc_38%,#eefdf6_100%)] flex items-center justify-center px-4 py-10">
-      <div className="w-full max-w-5xl grid gap-6 lg:grid-cols-[1.1fr_0.9fr]">
-        <motion.div
-          initial={{ opacity: 0, y: 12 }}
-          animate={{ opacity: 1, y: 0 }}
-          className="rounded-[32px] border border-white/70 bg-white/70 p-8 shadow-sm backdrop-blur"
-        >
-          <div className="flex items-center gap-3 mb-6">
-            <div className="flex h-14 w-14 items-center justify-center rounded-2xl bg-slate-900 text-white shadow-sm">
-              <Sun className="h-7 w-7" />
-            </div>
-            <div>
-              <h1 className="text-3xl font-bold tracking-tight">SunSmart</h1>
-              <p className="text-sm text-slate-500">UV Awareness & Protection Planner</p>
-            </div>
-          </div>
-
-          <div className="space-y-4">
-            
-
-            <h2 className="text-4xl font-bold tracking-tight leading-tight">
-              Welcome to SunSmart
-            </h2>
-
-            <p className="text-slate-600 leading-7">
-              We help provide you with Real-time location based UV levels and related information on how to protect yourself under the sun
-            </p>
-
-          </div>
-        </motion.div>
-
-        <motion.div
-          initial={{ opacity: 0, y: 12 }}
-          animate={{ opacity: 1, y: 0 }}
-          transition={{ delay: 0.05 }}
-          className="rounded-[32px] border border-white/70 bg-white/80 p-6 shadow-sm backdrop-blur"
-        >
-          <div className="flex gap-2 mb-6">
-            <Button
-              variant={mode === "login" ? "default" : "outline"}
-              className={`rounded-full flex-1 ${mode === "login" ? "bg-slate-900 text-white hover:bg-slate-800" : "bg-white"}`}
-              onClick={() => {
-                setMode("login");
-                setError("");
-                setSuccess("");
-              }}
-            >
-              <LogIn className="mr-2 h-4 w-4" />
-              Login
-            </Button>
-
-            <Button
-              variant={mode === "register" ? "default" : "outline"}
-              className={`rounded-full flex-1 ${mode === "register" ? "bg-slate-900 text-white hover:bg-slate-800" : "bg-white"}`}
-              onClick={() => {
-                setMode("register");
-                setError("");
-                setSuccess("");
-              }}
-            >
-              <UserPlus className="mr-2 h-4 w-4" />
-              Register
-            </Button>
-          </div>
-
-          {error && (
-            <div className="mb-4 rounded-2xl border border-rose-200 bg-rose-50 px-4 py-3 text-sm text-rose-700">
-              {error}
-            </div>
-          )}
-
-          {success && (
-            <div className="mb-4 rounded-2xl border border-emerald-200 bg-emerald-50 px-4 py-3 text-sm text-emerald-700">
-              {success}
-            </div>
-          )}
-
-          {mode === "login" ? (
-            <form onSubmit={handleLogin} className="space-y-4">
-              <div className="space-y-2">
-                <Label>Email</Label>
-                <div className="flex items-center rounded-xl border border-slate-200 bg-white px-3">
-                  <Mail className="h-4 w-4 text-slate-400" />
-                  <Input
-                    type="email"
-                    value={loginEmail}
-                    onChange={(e) => setLoginEmail(e.target.value)}
-                    placeholder="student@monash.edu"
-                    className="border-0 shadow-none focus-visible:ring-0"
-                  />
-                </div>
-              </div>
-
-              <div className="space-y-2">
-                <Label>Password</Label>
-                <div className="flex items-center rounded-xl border border-slate-200 bg-white px-3">
-                  <Lock className="h-4 w-4 text-slate-400" />
-                  <Input
-                    type="password"
-                    value={loginPassword}
-                    onChange={(e) => setLoginPassword(e.target.value)}
-                    placeholder="Enter password"
-                    className="border-0 shadow-none focus-visible:ring-0"
-                  />
-                </div>
-              </div>
-
-              <Button type="submit" className="w-full rounded-xl bg-slate-900 hover:bg-slate-800">
-                Login
-              </Button>
-
-              <Button
-                type="button"
-                variant="outline"
-                className="w-full rounded-xl bg-white"
-                onClick={handleDemoLogin}
-              >
-                Use demo account
-              </Button>
-
-              <p className="text-xs text-slate-500 text-center">
-                Demo account: student@monash.edu / 123456
-              </p>
-            </form>
-          ) : (
-            <form onSubmit={handleRegister} className="space-y-4">
-              <div className="space-y-2">
-                <Label>Email</Label>
-                <div className="flex items-center rounded-xl border border-slate-200 bg-white px-3">
-                  <Mail className="h-4 w-4 text-slate-400" />
-                  <Input
-                    type="email"
-                    value={registerEmail}
-                    onChange={(e) => setRegisterEmail(e.target.value)}
-                    placeholder="Enter email"
-                    className="border-0 shadow-none focus-visible:ring-0"
-                  />
-                </div>
-              </div>
-
-              <div className="space-y-2">
-                <Label>Password</Label>
-                <div className="flex items-center rounded-xl border border-slate-200 bg-white px-3">
-                  <Lock className="h-4 w-4 text-slate-400" />
-                  <Input
-                    type="password"
-                    value={registerPassword}
-                    onChange={(e) => setRegisterPassword(e.target.value)}
-                    placeholder="At least 6 characters"
-                    className="border-0 shadow-none focus-visible:ring-0"
-                  />
-                </div>
-              </div>
-
-              <div className="space-y-2">
-                <Label>Confirm password</Label>
-                <div className="flex items-center rounded-xl border border-slate-200 bg-white px-3">
-                  <Lock className="h-4 w-4 text-slate-400" />
-                  <Input
-                    type="password"
-                    value={confirmPassword}
-                    onChange={(e) => setConfirmPassword(e.target.value)}
-                    placeholder="Re-enter password"
-                    className="border-0 shadow-none focus-visible:ring-0"
-                  />
-                </div>
-              </div>
-
-              <Button type="submit" className="w-full rounded-xl bg-slate-900 hover:bg-slate-800">
-                Create account
-              </Button>
-            </form>
-          )}
-        </motion.div>
-      </div>
-    </div>
-  );
-}
-
-function MainApp({ currentUser, handleLogout }) {
+function MainApp() {
   const [selectedTab, setSelectedTab] = useState("dashboard");
-  const [uvIndex, setUvIndex] = useState(9);
+  const [uvIndex, setUvIndex] = useState(null);
   const [myLocation, setMyLocation] = useState("Your location");
   const [searchedLocation, setSearchedLocation] = useState("Melbourne, VIC");
   const [latitude, setLatitude] = useState(-37.8136);
   const [longitude, setLongitude] = useState(144.9631);
   const [locationTimezone, setLocationTimezone] = useState(null);
-  const { uvIndex: realUV } = useUVData(latitude, longitude, locationTimezone);
+  const { uvIndex: realUV, loading: uvLoading } = useUVData(latitude, longitude, locationTimezone);
 
   const isNightTime = realUV === 0;
   const displayUV = realUV !== null && realUV !== undefined ? realUV : uvIndex;
+  const uvReady = !uvLoading && displayUV !== null;
 
   const [skinTone, setSkinTone] = useState(skinToneOptions[1]);
-  const [email, setEmail] = useState(currentUser?.email || "student@monash.edu");
+  const [email, setEmail] = useState("student@monash.edu");
   const [startTime, setStartTime] = useState(() => {
     const now = new Date();
     return now.toTimeString().slice(0, 5);
@@ -601,11 +286,8 @@ function MainApp({ currentUser, handleLogout }) {
   const [intervalValue, setIntervalValue] = useState(2);
   const [intervalUnit, setIntervalUnit] = useState("hours");
   const [reminderEnabled, setReminderEnabled] = useState(false);
-  const [settingsStatus, setSettingsStatus] = useState("");
-  const [settingsLoading, setSettingsLoading] = useState(false);
   const reminderRef = React.useRef(null);
   const alertedRef = React.useRef(false);
-  const currentUserId = buildUserId(currentUser?.email);
 
   const uvMeta = useMemo(() => getUvMeta(displayUV), [displayUV]);
   const clothingTips = clothingByRisk[uvMeta.level];
@@ -626,8 +308,6 @@ function MainApp({ currentUser, handleLogout }) {
       nextLabel: formatClockTime(next),
     };
   }, [startTime, intervalValue, intervalUnit]);
-
-  // Settings are stored locally in state — no backend required
 
 
 
@@ -732,7 +412,7 @@ function MainApp({ currentUser, handleLogout }) {
 
     ctx.fillStyle = textColors[level];
     ctx.font = "bold 72px system-ui, sans-serif";
-    ctx.fillText(String(displayUV), 44, 110);
+    ctx.fillText(String(displayUV), 44, 110); // decimal value
 
     ctx.font = "bold 15px system-ui, sans-serif";
     const badgeW = ctx.measureText(level + " Risk").width + 24;
@@ -844,12 +524,23 @@ function MainApp({ currentUser, handleLogout }) {
   const [suggestionsLoading, setSuggestionsLoading] = useState(false);
   const [showSuggestions, setShowSuggestions] = useState(false);
   const searchRef = React.useRef(null);
+
+  // AU-specific search state
+  const [auSearch, setAuSearch] = useState("");
+  const [auSuggestions, setAuSuggestions] = useState([]);
+  const [auSuggestionsLoading, setAuSuggestionsLoading] = useState(false);
+  const [showAuSuggestions, setShowAuSuggestions] = useState(false);
+  const auSearchRef = React.useRef(null);
+  const auDebounceRef = React.useRef(null);
   const debounceRef = React.useRef(null);
 
   useEffect(() => {
     const handler = (e) => {
       if (searchRef.current && !searchRef.current.contains(e.target)) {
         setShowSuggestions(false);
+      }
+      if (auSearchRef.current && !auSearchRef.current.contains(e.target)) {
+        setShowAuSuggestions(false);
       }
     };
     document.addEventListener("mousedown", handler);
@@ -914,6 +605,59 @@ function MainApp({ currentUser, handleLogout }) {
     } catch {}
   };
 
+  const handleAuInput = (value) => {
+    setAuSearch(value);
+    if (auDebounceRef.current) clearTimeout(auDebounceRef.current);
+    if (value.trim().length < 2) {
+      setAuSuggestions([]);
+      setShowAuSuggestions(false);
+      return;
+    }
+    auDebounceRef.current = setTimeout(async () => {
+      setAuSuggestionsLoading(true);
+      try {
+        // countrycodes=au restricts to Australia only
+        const res = await fetch(
+          `https://nominatim.openstreetmap.org/search?q=${encodeURIComponent(value)}&format=json&limit=7&addressdetails=1&countrycodes=au`
+        );
+        const data = await res.json();
+        setAuSuggestions(data);
+        setShowAuSuggestions(true);
+      } catch {
+        setAuSuggestions([]);
+      } finally {
+        setAuSuggestionsLoading(false);
+      }
+    }, 300);
+  };
+
+  const handleSelectAuSuggestion = async (item) => {
+    const lat = parseFloat(item.lat);
+    const lon = parseFloat(item.lon);
+    setLatitude(lat);
+    setLongitude(lon);
+    const a = item.address || {};
+    const nameParts = [
+      a.road || a.pedestrian || a.neighbourhood || a.suburb || a.quarter,
+      a.suburb || a.city_district || a.town || a.city || a.village,
+      a.state_code || a.state,
+    ].filter(Boolean);
+    const cleanName = nameParts.length >= 2
+      ? nameParts.slice(0, 3).join(", ")
+      : item.display_name.split(",").slice(0, 2).join(",").trim();
+    setSearchedLocation(cleanName);
+    setAuSearch("");
+    setAuSuggestions([]);
+    setShowAuSuggestions(false);
+    try {
+      const tzRes = await fetch(
+        `https://api.open-meteo.com/v1/forecast?latitude=${lat}&longitude=${lon}&hourly=uv_index&timezone=auto&forecast_days=1`
+      );
+      const tzData = await tzRes.json();
+      if (tzData.timezone) setLocationTimezone(tzData.timezone);
+    } catch {}
+  };
+
   const handleGetGPS = () => {
     if (!navigator.geolocation) {
       alert("Your browser does not support GPS.");
@@ -957,70 +701,56 @@ function MainApp({ currentUser, handleLogout }) {
   };
 
   return (
-    <div className="min-h-screen bg-[radial-gradient(circle_at_top,#eff6ff_0%,#f8fafc_38%,#eefdf6_100%)] text-slate-900">
+    <div className="min-h-screen bg-[radial-gradient(circle_at_top,#eff6ff_0%,#f8fafc_38%,#eefdf6_100%)] text-slate-900" style={{ paddingBottom: "env(safe-area-inset-bottom)" }}>
       <div className="mx-auto max-w-7xl px-4 py-6 sm:px-6 lg:px-8">
-        <motion.header
-          initial={{ opacity: 0, y: 10 }}
-          animate={{ opacity: 1, y: 0 }}
-          className="mb-6 rounded-[28px] border border-white/70 bg-white/70 p-4 shadow-sm backdrop-blur sm:p-5"
-        >
-          <div className="flex flex-col gap-4 lg:flex-row lg:items-center lg:justify-between">
-            <div className="flex items-center gap-3">
-              <div className="flex h-12 w-12 items-center justify-center rounded-2xl bg-slate-900 text-white shadow-sm">
-                <Sun className="h-6 w-6" />
+        <header className="mb-6 rounded-[28px] border border-slate-200 bg-white p-4 shadow-sm sm:p-5">
+          {/* Logo row — always visible */}
+          <div className="flex items-center justify-between gap-3">
+            <div className="flex items-center gap-3 min-w-0">
+              <div className="flex h-10 w-10 shrink-0 items-center justify-center rounded-2xl bg-slate-900 text-white shadow-sm">
+                <Sun className="h-5 w-5" />
               </div>
-              <div>
+              <div className="min-w-0">
                 <div className="flex items-center gap-2">
-                  <h1 className="text-2xl font-bold tracking-tight">SunSmart</h1>
-                  <Badge variant="outline" className="rounded-full border-slate-200 bg-white/80">
+                  <h1 className="text-lg font-bold tracking-tight leading-tight">SunSmart</h1>
+                  <Badge variant="outline" className="rounded-full border-slate-200 bg-white text-slate-900">
                     UV Awareness
                   </Badge>
                 </div>
-                <p className="text-sm text-slate-500">
-                  Welcome, {currentUser?.email}
+                <p className="text-xs text-slate-500 truncate max-w-[180px] sm:max-w-none">
+                  SunSmart
                 </p>
               </div>
             </div>
-
-            <div className="flex flex-wrap gap-2 justify-end">
-              {[
-                ["dashboard", "Dashboard"],
-                ["awareness", "Awareness"],
-                ["skin", "Skin Tone"],
-              ].map(([value, label]) => (
-                <Button
-                  key={value}
-                  variant={selectedTab === value ? "default" : "outline"}
-                  className={`rounded-full ${selectedTab === value ? "bg-slate-900 text-white hover:bg-slate-800" : "bg-white/80"}`}
-                  onClick={() => setSelectedTab(value)}
-                >
-                  {label}
-                </Button>
+            {/* Desktop nav */}
+            <div className="hidden sm:flex flex-wrap gap-2 items-center">
+              {[["dashboard","Dashboard"],["awareness","Awareness"],["skin","Skin Tone"]].map(([value,label]) => (
+                <Button key={value} variant={selectedTab===value?"default":"outline"}
+                  className={`rounded-full text-sm ${selectedTab===value?"bg-slate-900 text-white hover:bg-slate-800":"bg-white"}`}
+                  onClick={() => setSelectedTab(value)}>{label}</Button>
               ))}
 
-              <Button
-                variant="outline"
-                className="rounded-full bg-white"
-                onClick={handleLogout}
-              >
-                <LogOut className="mr-2 h-4 w-4" />
-                Logout
-              </Button>
             </div>
+            {/* Mobile logout icon */}
+
           </div>
-        </motion.header>
+          {/* Mobile tab row */}
+          <div className="sm:hidden mt-3 flex gap-2 overflow-x-auto" style={{ WebkitOverflowScrolling: "touch" }}>
+            {[["dashboard","Dashboard"],["awareness","Awareness"],["skin","Skin Tone"]].map(([value,label]) => (
+              <Button key={value} variant={selectedTab===value?"default":"outline"}
+                className={`rounded-full text-sm shrink-0 ${selectedTab===value?"bg-slate-900 text-white":"bg-white"}`}
+                onClick={() => setSelectedTab(value)}>{label}</Button>
+            ))}
+          </div>
+        </header>
 
         <Tabs value={selectedTab} onValueChange={setSelectedTab} className="space-y-6">
           <TabsList className="hidden" />
 
           <TabsContent value="dashboard" className="mt-0 space-y-6">
                         <section className="mb-6 grid gap-4 lg:grid-cols-[1.4fr_0.9fr]">
-              <motion.div
-                initial={{ opacity: 0, y: 14 }}
-                animate={{ opacity: 1, y: 0 }}
-                transition={{ delay: 0.05 }}
-              >
-                <Card className="overflow-hidden rounded-[28px] border-white/60 bg-white/75 shadow-sm backdrop-blur">
+              <div>
+                <Card className="rounded-[28px] border border-slate-200 bg-white shadow-sm overflow-visible">
                   <CardContent className="p-0">
                         <div className="grid gap-0 lg:grid-cols-[1.1fr_0.9fr]">
                           <div className="p-6 sm:p-8">
@@ -1036,25 +766,35 @@ function MainApp({ currentUser, handleLogout }) {
 
                             <div className="mt-5 flex gap-3 flex-wrap">
                               <StatPill icon={MapPin} label="Location" value={searchedLocation} />
-                              <StatPill icon={TriangleAlert} label="Risk level" value={uvMeta.level} />
+                              <StatPill icon={TriangleAlert} label="Risk level" value={uvReady ? uvMeta.level : "—"} />
                             </div>
                           </div>
 
-                          <div className="relative flex items-center justify-center bg-slate-950 p-6 text-white sm:p-8">
+                          <div className="relative flex items-center justify-center bg-slate-950 p-6 text-white sm:p-8 rounded-b-[28px] lg:rounded-b-none lg:rounded-r-[28px]">
                             <div className={`absolute inset-0 bg-gradient-to-br ${uvMeta.ring} opacity-85`} />
                             <div className="absolute inset-0 bg-[radial-gradient(circle_at_top,rgba(255,255,255,.24),transparent_35%)]" />
-                            <div className="relative w-full rounded-[28px] border border-white/20 bg-white/10 p-6 backdrop-blur-md">
+                            <div className="relative w-full rounded-[28px] border border-white/20 bg-white/10 p-6">
                               <div className="mb-3 flex items-center justify-between">
                                     <span className="text-sm text-white/80">Current UV Index</span>
                                     <CloudSun className="h-5 w-5 text-white/90" />
                               </div>
-                              <div className="flex items-end gap-3">
-                                    <span className="text-7xl font-bold leading-none">{displayUV}</span>
+                              {uvReady ? (
+                                <>
+                                  <div className="flex items-end gap-3">
+                                    <span className="text-6xl font-bold leading-none">{displayUV}</span>
                                     <Badge className="mb-2 rounded-full border-0 bg-white/15 px-3 py-1 text-white shadow-none">
                                       {uvMeta.level}
                                     </Badge>
-                              </div>
-                              <p className="mt-4 text-sm leading-6 text-white/90">{uvMeta.message}</p>
+                                  </div>
+                                  <p className="mt-4 text-sm leading-6 text-white/90">{uvMeta.message}</p>
+                                </>
+                              ) : (
+                                <div className="flex flex-col gap-3 mt-1">
+                                  <div className="h-16 w-16 rounded-2xl bg-white/15 animate-pulse" />
+                                  <div className="h-4 w-48 rounded-xl bg-white/15 animate-pulse" />
+                                  <p className="text-sm text-white/60">Fetching UV data...</p>
+                                </div>
+                              )}
                               {isNightTime && (
                                     <p className="mt-2 text-xs text-white/60 flex items-center gap-1">
                                       🌙 UV is 0
@@ -1065,20 +805,16 @@ function MainApp({ currentUser, handleLogout }) {
                         </div>
                   </CardContent>
                 </Card>
-              </motion.div>
+              </div>
 
-              <motion.div
-                initial={{ opacity: 0, y: 14 }}
-                animate={{ opacity: 1, y: 0 }}
-                transition={{ delay: 0.1 }}
-              >
-                <Card className="h-full rounded-[28px] border-white/60 bg-white/75 shadow-sm backdrop-blur">
+              <div>
+                <Card className="h-full rounded-[28px] border border-slate-200 bg-white shadow-sm">
                   <CardHeader className="pb-2">
                         <CardTitle className="flex items-center gap-2 text-lg">
                           <Sparkles className="h-5 w-5" /> Use your Location
                         </CardTitle>
                   </CardHeader>
-                  <CardContent className="space-y-5">
+                  <CardContent className="space-y-5 overflow-visible">
                         <div className="space-y-2">
                           <Label>Current location</Label>
                           <div className="rounded-xl border border-slate-200 bg-slate-50 px-3 py-2 text-sm font-medium text-slate-700 flex items-center gap-2">
@@ -1087,60 +823,110 @@ function MainApp({ currentUser, handleLogout }) {
                           </div>
                         </div>
 
+                        {/* ── AU-specific search ── */}
+                        <div className="space-y-2" ref={auSearchRef}>
+                          <div className="flex items-center justify-between">
+                            <Label>Search in Australia</Label>
+                            <span className="text-xs text-slate-400 flex items-center gap-1">🇦🇺 AU only</span>
+                          </div>
+                          <div className="relative">
+                            <div className="flex items-center rounded-xl border-2 border-emerald-400 bg-white px-3 gap-2 focus-within:border-emerald-500 transition-all">
+                              <MapPin className="h-4 w-4 text-emerald-500 shrink-0" />
+                              <input
+                                value={auSearch}
+                                onChange={(e) => handleAuInput(e.target.value)}
+                                onFocus={() => auSuggestions.length > 0 && setShowAuSuggestions(true)}
+                                placeholder="Suburb, street or landmark..."
+                                className="flex-1 py-2.5 text-sm bg-transparent outline-none placeholder:text-slate-400"
+                                autoComplete="off"
+                              />
+                              {auSuggestionsLoading && (
+                                <span className="text-xs text-slate-400 shrink-0">searching…</span>
+                              )}
+                              {auSearch && !auSuggestionsLoading && (
+                                <button onClick={() => { setAuSearch(""); setAuSuggestions([]); setShowAuSuggestions(false); }}
+                                  className="text-slate-300 hover:text-slate-500 shrink-0 text-lg leading-none">✕</button>
+                              )}
+                            </div>
+                            {showAuSuggestions && auSuggestions.length > 0 && (
+                              <div className="absolute z-50 mt-1 w-full rounded-2xl border border-slate-200 bg-white shadow-2xl overflow-y-auto" style={{ maxHeight: "280px" }}>
+                                {auSuggestions.map((item, idx) => {
+                                  const a = item.address || {};
+                                  const primary = a.road || a.pedestrian || a.neighbourhood || a.suburb || a.city || a.town || a.village || item.display_name.split(",")[0];
+                                  const suburb = a.suburb || a.city_district || "";
+                                  const state = a.state_code || a.state || "";
+                                  const secondary = [suburb, state].filter(Boolean).join(", ") || item.display_name.split(",").slice(1, 3).join(",").trim();
+                                  const isStreet = item.class === "highway" || item.class === "railway";
+                                  const isPlace = item.type === "administrative" || item.class === "place" || item.class === "boundary";
+                                  const icon = isStreet ? "📍" : isPlace ? "🏙️" : item.class === "amenity" ? "📌" : "📍";
+                                  return (
+                                    <button
+                                      key={idx}
+                                      onClick={() => handleSelectAuSuggestion(item)}
+                                      className="w-full flex items-center gap-3 px-4 py-3 text-left hover:bg-emerald-50 border-b border-slate-100 last:border-0 transition-colors touch-manipulation"
+                                    >
+                                      <span className="text-base shrink-0">{icon}</span>
+                                      <div className="min-w-0 flex-1">
+                                        <p className="text-sm font-semibold text-slate-900 truncate">{primary}</p>
+                                        <p className="text-xs text-slate-500 truncate">{secondary}</p>
+                                      </div>
+                                      <span className="text-xs text-emerald-600 font-medium shrink-0">AU</span>
+                                    </button>
+                                  );
+                                })}
+                              </div>
+                            )}
+                          </div>
+                        </div>
+
+                        {/* ── Global search (divider) ── */}
+                        <div className="flex items-center gap-3">
+                          <div className="h-px flex-1 bg-slate-200" />
+                          <span className="text-xs text-slate-400 font-medium">or search globally</span>
+                          <div className="h-px flex-1 bg-slate-200" />
+                        </div>
+
                         <div className="space-y-2" ref={searchRef}>
-                          <Label>Search any location</Label>
                           <div className="relative">
                             <div className="flex items-center rounded-xl border border-slate-200 bg-white px-3 gap-2 focus-within:ring-2 focus-within:ring-slate-900 focus-within:border-transparent transition-all">
                               <MapPin className="h-4 w-4 text-slate-400 shrink-0" />
                               <input
-                                    value={citySearch}
-                                    onChange={(e) => handleCityInput(e.target.value)}
-                                    onFocus={() => suggestions.length > 0 && setShowSuggestions(true)}
-                                    placeholder="Search suburb, city or landmark..."
-                                    className="flex-1 py-2.5 text-sm bg-transparent outline-none placeholder:text-slate-400"
+                                value={citySearch}
+                                onChange={(e) => handleCityInput(e.target.value)}
+                                onFocus={() => suggestions.length > 0 && setShowSuggestions(true)}
+                                placeholder="Search any city worldwide..."
+                                className="flex-1 py-2.5 text-sm bg-transparent outline-none placeholder:text-slate-400"
+                                autoComplete="off"
                               />
                               {suggestionsLoading && (
-                                    <span className="text-xs text-slate-400 shrink-0">searching…</span>
+                                <span className="text-xs text-slate-400 shrink-0">searching…</span>
+                              )}
+                              {citySearch && !suggestionsLoading && (
+                                <button onClick={() => { setCitySearch(""); setSuggestions([]); setShowSuggestions(false); }}
+                                  className="text-slate-300 hover:text-slate-500 shrink-0 text-lg leading-none">✕</button>
                               )}
                             </div>
-
                             {showSuggestions && suggestions.length > 0 && (
-                              <div className="absolute z-50 mt-1 w-full rounded-2xl border border-slate-200 bg-white shadow-xl overflow-hidden">
-                                    {suggestions.map((item, idx) => {
-                                      const a = item.address || {};
-                                      const primary =
-                                        a.road ||
-                                        a.pedestrian ||
-                                        a.neighbourhood ||
-                                        a.suburb ||
-                                        a.city ||
-                                        a.town ||
-                                        a.village ||
-                                        item.display_name.split(",")[0];
-                                      const secondary = item.display_name.split(",").slice(1, 3).join(",").trim();
-                                      const typeIcon =
-                                        item.type === "administrative" || item.class === "place"
-                                          ? "🏙️"
-                                          : item.class === "railway" || item.class === "highway"
-                                          ? "📍"
-                                          : item.class === "amenity"
-                                          ? "📌"
-                                          : "📍";
-
-                                      return (
-                                        <button
-                                          key={idx}
-                                          onClick={() => handleSelectSuggestion(item)}
-                                          className="w-full flex items-start gap-3 px-4 py-3 text-left hover:bg-slate-50 border-b border-slate-100 last:border-0 transition-colors"
-                                        >
-                                          <span className="text-base mt-0.5 shrink-0">{typeIcon}</span>
-                                          <div className="min-w-0">
-                                                <p className="text-sm font-medium text-slate-900 truncate">{primary}</p>
-                                                <p className="text-xs text-slate-500 truncate">{secondary}</p>
-                                          </div>
-                                        </button>
-                                      );
-                                    })}
+                              <div className="absolute z-50 mt-1 w-full rounded-2xl border border-slate-200 bg-white shadow-xl overflow-y-auto" style={{ maxHeight: "280px" }}>
+                                {suggestions.map((item, idx) => {
+                                  const a = item.address || {};
+                                  const primary = a.road || a.pedestrian || a.neighbourhood || a.suburb || a.city || a.town || a.village || item.display_name.split(",")[0];
+                                  const secondary = item.display_name.split(",").slice(1, 3).join(",").trim();
+                                  const typeIcon = item.type === "administrative" || item.class === "place" ? "🏙️" : item.class === "railway" || item.class === "highway" ? "📍" : item.class === "amenity" ? "📌" : "📍";
+                                  return (
+                                    <button
+                                      key={idx}
+                                      onClick={() => handleSelectSuggestion(item)}
+                                      className="w-full flex items-center gap-3 px-4 py-3 text-left hover:bg-slate-50 border-b border-slate-100 last:border-0 transition-colors touch-manipulation"
+                                    >
+                                      <span className="text-base shrink-0">{typeIcon}</span>
+                                      <div className="min-w-0">
+                                        <p className="text-sm font-medium text-slate-900 truncate">{primary}</p>
+                                        <p className="text-xs text-slate-500 truncate">{secondary}</p>
+                                      </div>
+                                    </button>
+                                  );
+                                })}
                               </div>
                             )}
                           </div>
@@ -1155,7 +941,7 @@ function MainApp({ currentUser, handleLogout }) {
                         </div>
                   </CardContent>
                 </Card>
-              </motion.div>
+              </div>
             </section>
 
             <div className="grid gap-4 lg:grid-cols-[1fr_1fr]">
@@ -1339,6 +1125,7 @@ Stay sun smart! #SunSmart #UVAlert`);
                       Preview notification
                     </Button>
                   </div>
+
 
                   <div className="rounded-2xl bg-slate-50 p-3 text-sm text-slate-500">
                     Next: <span className="font-semibold text-slate-800">{nextReminderPreview?.nextLabel || startTime}</span> → every <span className="font-semibold text-slate-800">{intervalValue} {intervalUnit}</span>
@@ -1585,7 +1372,7 @@ Stay sun smart! #SunSmart #UVAlert`);
 
         </Tabs>
 
-        <footer className="mt-8 rounded-[28px] border border-white/70 bg-white/70 p-5 text-sm text-slate-500 shadow-sm backdrop-blur">
+        <footer className="mt-8 rounded-[28px] border border-slate-200 bg-white p-5 text-sm text-slate-500 shadow-sm">
           <div className="flex flex-col gap-2 sm:flex-row sm:items-center sm:justify-between">
             <p>This is a prototype for the full application. Stay tuned!</p>
             <p>SunSmart ©</p>
@@ -1599,10 +1386,10 @@ Stay sun smart! #SunSmart #UVAlert`);
 function ExpandablePanel({ icon, title, badge, summary, children }) {
   const [open, setOpen] = React.useState(false);
   return (
-    <div className="rounded-[28px] border border-white/60 bg-white/75 shadow-sm backdrop-blur overflow-hidden">
+    <div className="rounded-[28px] border border-slate-200 bg-white shadow-sm overflow-hidden">
       <button
         onClick={() => setOpen((o) => !o)}
-        className="w-full flex items-center justify-between gap-3 p-5 text-left hover:bg-slate-50/60 transition-colors"
+        className="w-full flex items-center justify-between gap-3 p-5 text-left transition-colors touch-manipulation"
       >
         <div className="flex items-center gap-3 min-w-0">
           <span className="flex items-center justify-center h-9 w-9 rounded-xl bg-slate-900 text-white shrink-0">
@@ -1634,7 +1421,7 @@ function FlipCard({ item }) {
   return (
     <div
       onClick={() => setFlipped((f) => !f)}
-      style={{ perspective: "1000px", cursor: "pointer" }}
+      style={{ perspective: "1000px", cursor: "pointer", WebkitTapHighlightColor: "transparent" }}
       className="h-44"
     >
       <div
@@ -1687,31 +1474,5 @@ function FlipCard({ item }) {
 // ─────────────────────────────────────────────────────────────────────────────
 
 export default function SunSmartUIMockup() {
-  const [currentUser, setCurrentUser] = useState(null);
-
-  useEffect(() => {
-    const savedUser = localStorage.getItem("sunsmart_current_user");
-    if (savedUser) {
-      try {
-        setCurrentUser(JSON.parse(savedUser));
-      } catch {
-        localStorage.removeItem("sunsmart_current_user");
-      }
-    }
-  }, []);
-
-  const handleLoginSuccess = (user) => {
-    setCurrentUser(user);
-  };
-
-  const handleLogout = () => {
-    localStorage.removeItem("sunsmart_current_user");
-    setCurrentUser(null);
-  };
-
-  if (!currentUser) {
-    return <AuthScreen onLoginSuccess={handleLoginSuccess} />;
-  }
-
-  return <MainApp currentUser={currentUser} handleLogout={handleLogout} />;
+  return <MainApp />;
 }
